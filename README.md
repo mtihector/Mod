@@ -2,11 +2,11 @@
 
 This is a infrastructure project to make a modular web application in top of it.
 
-The project aims to help me; and anyone else; giving me a platform where i can build any module in top of it, for my projects, usually those are ** private web applications **.
+The project aims to help me; and anyone else; giving me a platform where i can build any module in top of it, for my projects, usually those are **private web applications**.
 
 Also i use this to write in my [blog](http://www.mtihector.com) about how i built this kind of applications.
 
-You can contact [me](mailto:contact@mtihector.com).
+You can contact me <mailto:contact@mtihector.com>.
 
 
 
