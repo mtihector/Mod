@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mod.Core", "Mod.Core\Mod.Core.csproj", "{A846C5C4-6755-45F7-AC09-4D8C2F74DD27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebHost", "WebHost\WebHost.csproj", "{EB97DF17-6C45-499D-9100-A1F90BEAB6A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mod.Core.Test", "Mod.Core.Test\Mod.Core.Test.csproj", "{53A06C26-EA07-406A-8E33-1F2C18F4D503}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mod.Core.ModuleA", "Mod.Core.ModuleA\Mod.Core.ModuleA.csproj", "{567D1E1F-1A18-40AF-B8B9-26841C295AE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestModules", "TestModules", "{E7DEE6C7-9EE4-4287-AB1A-F6610322CD4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIModules", "APIModules", "{849445D5-2C18-4805-BCDB-08554FC2579D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mod.Core.Base.Employees", "Mod.Core.Base.Employees\Mod.Core.Base.Employees.csproj", "{50D0FBD2-E924-4F9F-A4E5-49E1A6E331FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mod.Core.Base.Api.Employees", "Mod.Core.Base.Api.Employees\Mod.Core.Base.Api.Employees.csproj", "{62304C93-84A3-4B52-BC33-CF7BC7582FBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A846C5C4-6755-45F7-AC09-4D8C2F74DD27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A846C5C4-6755-45F7-AC09-4D8C2F74DD27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A846C5C4-6755-45F7-AC09-4D8C2F74DD27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A846C5C4-6755-45F7-AC09-4D8C2F74DD27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB97DF17-6C45-499D-9100-A1F90BEAB6A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB97DF17-6C45-499D-9100-A1F90BEAB6A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB97DF17-6C45-499D-9100-A1F90BEAB6A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB97DF17-6C45-499D-9100-A1F90BEAB6A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53A06C26-EA07-406A-8E33-1F2C18F4D503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A06C26-EA07-406A-8E33-1F2C18F4D503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53A06C26-EA07-406A-8E33-1F2C18F4D503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53A06C26-EA07-406A-8E33-1F2C18F4D503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{567D1E1F-1A18-40AF-B8B9-26841C295AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{567D1E1F-1A18-40AF-B8B9-26841C295AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{567D1E1F-1A18-40AF-B8B9-26841C295AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{567D1E1F-1A18-40AF-B8B9-26841C295AE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50D0FBD2-E924-4F9F-A4E5-49E1A6E331FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50D0FBD2-E924-4F9F-A4E5-49E1A6E331FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50D0FBD2-E924-4F9F-A4E5-49E1A6E331FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50D0FBD2-E924-4F9F-A4E5-49E1A6E331FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62304C93-84A3-4B52-BC33-CF7BC7582FBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62304C93-84A3-4B52-BC33-CF7BC7582FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62304C93-84A3-4B52-BC33-CF7BC7582FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62304C93-84A3-4B52-BC33-CF7BC7582FBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{567D1E1F-1A18-40AF-B8B9-26841C295AE2} = {E7DEE6C7-9EE4-4287-AB1A-F6610322CD4A}
+		{50D0FBD2-E924-4F9F-A4E5-49E1A6E331FC} = {849445D5-2C18-4805-BCDB-08554FC2579D}
+		{62304C93-84A3-4B52-BC33-CF7BC7582FBF} = {849445D5-2C18-4805-BCDB-08554FC2579D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal

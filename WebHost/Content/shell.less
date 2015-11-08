@@ -1,0 +1,235 @@
+﻿@import "bootstrap/variables.less";
+
+@header-height: 60px;
+@menu-width: 250px;
+@right-width: 250px;
+
+#header {
+    height: @header-height;
+    background-color: white;
+    position: fixed;
+    margin: 0 !important;
+    z-index: 999;
+    width: 100%;
+}
+
+
+#containerRow {
+    position: relative;
+    height: 100%;
+    margin: 0 !important;
+    background-color: gray;
+    left: 0;
+    right: 0;
+    overflow-x: hidden;
+}
+
+#pageBaseContainer {
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -o-transition: .3s linear;
+    transition: .3s linear;
+    z-index: 150;
+    position: relative;
+}
+
+
+#containerRow::before,
+#containerRow::after {
+    display: table;
+    content: " ";
+}
+
+#containerRow::after {
+    clear: both;
+}
+
+
+#leftContainer {
+    position: fixed;
+    width: @menu-width;
+    background: cyan;
+    height: 100%;
+    padding-top: @header-height;
+    z-index: 200;
+    overflow-y: hidden;
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -o-transition: .3s linear;
+    transition: .3s linear;
+    //This is the div that is used by the scroll plugin
+    > div {
+        max-height: 100%;
+    }
+}
+
+
+#topLeftContainer {
+    width: @menu-width;
+    position: fixed;
+    left: 0;
+    top: 0;
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -o-transition: .3s linear;
+    transition: .3s linear;
+}
+
+#mainheader {
+    padding-left: @menu-width;
+    width: 100%;
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -o-transition: .3s linear;
+    transition: .3s linear;
+}
+
+#mainheader::after {
+    clear: both;
+}
+
+#mainContainer {
+    position: relative;
+    overflow: auto;
+    background-color: yellow;
+    min-height: 100%;
+    padding-left: @menu-width;
+    padding-top: @header-height;
+    z-index: 150;
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -o-transition: .3s linear;
+    transition: .3s linear;
+}
+
+#rightContainer {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: @right-width;
+    padding-top: @header-height;
+    z-index: 140;
+
+    > div {
+        max-height: 100%;
+    }
+}
+
+.showRightContainer {
+    -webkit-transform: translateX(0-@right-width);
+    -moz-transform: translateX(0-@right-width);
+    -ms-transform: translateX(0-@right-width);
+    -o-transform: translateX(0-@right-width);
+    transform: translateX(0-@right-width);
+}
+
+
+// Fix for the menu to collapse on click
+
+.toggleLeftContainer {
+    #topLeftContainer {
+        // width: 0;
+        //display: none;
+        -webkit-transform: translateX(0-@right-width);
+        -moz-transform: translateX(0-@right-width);
+        -ms-transform: translateX(0-@right-width);
+        -o-transform: translateX(0-@right-width);
+        transform: translateX(0-@right-width);
+    }
+
+    #mainheader {
+        padding-left: 0;
+    }
+
+    #containerRow {
+
+        #leftContainer {
+            -webkit-transform: translateX(0-@right-width);
+            -moz-transform: translateX(0-@right-width);
+            -ms-transform: translateX(0-@right-width);
+            -o-transform: translateX(0-@right-width);
+            transform: translateX(0-@right-width);
+        }
+
+
+        #mainContainer {
+            padding-left: 0;
+        }
+    }
+}
+
+
+
+@media(max-width:@screen-xs-max) {
+
+
+
+    #topLeftContainer {
+        -webkit-transform: translateX(0-@right-width);
+        -moz-transform: translateX(0-@right-width);
+        -ms-transform: translateX(0-@right-width);
+        -o-transform: translateX(0-@right-width);
+        transform: translateX(0-@right-width);
+    }
+
+    #mainheader {
+        padding-left: 0;
+    }
+
+    #containerRow {
+
+        #leftContainer {
+            -webkit-transform: translateX(0-@right-width);
+            -moz-transform: translateX(0-@right-width);
+            -ms-transform: translateX(0-@right-width);
+            -o-transform: translateX(0-@right-width);
+            transform: translateX(0-@right-width);
+        }
+
+
+        #mainContainer {
+            padding-left: 0;
+        }
+    }
+
+
+
+    .toggleLeftContainer {
+        #topLeftContainer {
+            -webkit-transform: translateX(0);
+            -moz-transform: translateX(0);
+            -ms-transform: translateX(0);
+            -o-transform: translateX(0);
+            transform: translateX(0);
+        }
+
+        #mainheader {
+            -webkit-transform: translateX(@menu-width);
+            -moz-transform: translateX(@menu-width);
+            -ms-transform: translateX(@menu-width);
+            -o-transform: translateX(@menu-width);
+            transform: translateX(@menu-width);
+        }
+
+        #containerRow {
+
+            #leftContainer {
+                -webkit-transform: translateX(0);
+                -moz-transform: translateX(0);
+                -ms-transform: translateX(0);
+                -o-transform: translateX(0);
+                transform: translateX(0);
+            }
+
+
+            #mainContainer {
+                -webkit-transform: translateX(@menu-width);
+                -moz-transform: translateX(@menu-width);
+                -ms-transform: translateX(@menu-width);
+                -o-transform: translateX(@menu-width);
+                transform: translateX(@menu-width);
+            }
+        }
+    }
+}

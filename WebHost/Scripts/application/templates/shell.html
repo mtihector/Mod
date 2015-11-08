@@ -1,0 +1,91 @@
+﻿<!-- The body and html is already on 100% so we create the next layout
+
+---------------------------------------------
+|Header with menu collpase and other stuff |
+---------------------------------------------
+|****|********************************|*****|
+|Menu|********************************|Right|
+|****|*********Main container*********|*****|
+|****|*********current option*********|*****|
+|****|********************************|*****|
+|****|********************************|*****|
+---------------------------------------------
+
+The chat area will be collapsed, when uncollapse the menu will collapse on big screens
+
+On medium screens the menu will be collapsed in a small clumn in the left and if the chat uncollpase will resize
+Main Container space
+
+
+On scmall screens the menu will be collapsed (hidden) it wil be over on show and the chat on uncollapse will be over
+the content
+
+-->
+
+
+
+<div id="pageBaseContainer">
+    <div id="header">
+        <div id="topLeftContainer">
+            Legend in top of menu
+        </div>
+
+
+        <div id="mainheader">
+            Header next top menu
+            <div class="DropFloat maxWidth">
+                <div class="floatLeft">
+                    <a id="toggleLeft" class="btn btn-default">
+
+                        <i class="fa fa-bars"></i>
+
+                    </a>
+                </div>
+                <div class="floatRight">
+                    <a id="toggleRight" class="btn btn-default">
+                        <i class="fa fa-user"></i>
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="containerRow">
+
+        <div id="leftContainer">
+
+            <div class="scrollbar-inner">
+                <div style="height: 2000px">
+                    Menu
+                </div>
+            </div>
+        </div>
+
+        <div id="mainContainer">
+            <div style="height: 2000px">
+                Main Container current Option
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+</div>
+
+
+<div id="rightContainer">
+    <div class="scrollbar-inner">
+        <div style="height: 2500px;">
+             Something else goes here
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
