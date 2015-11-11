@@ -6768,6 +6768,7 @@ html,
 body {
   height: 100%;
   font-size: 14px;
+  font-family: 'Ubuntu', sans-serif;
 }
 body {
   min-height: 100%;
@@ -6786,9 +6787,19 @@ body {
 .maxWidth {
   width: 100%;
 }
+.flatButton {
+  font-size: 22px;
+  color: #3F3F46;
+  cursor: pointer;
+  display: block;
+}
+.flatButton:hover {
+  color: #3F3F46;
+  text-decoration: none;
+}
 #header {
   height: 60px;
-  background-color: white;
+  background-color: #FFFFFF;
   position: fixed;
   margin: 0 !important;
   z-index: 999;
@@ -6798,7 +6809,7 @@ body {
   position: relative;
   height: 100%;
   margin: 0 !important;
-  background-color: gray;
+  background-color: #E5E9EC;
   left: 0;
   right: 0;
   overflow-x: hidden;
@@ -6820,9 +6831,10 @@ body {
   clear: both;
 }
 #leftContainer {
+  color: #FFFFFF;
   position: fixed;
   width: 250px;
-  background: cyan;
+  background: #18181A;
   height: 100%;
   padding-top: 60px;
   z-index: 200;
@@ -6844,14 +6856,36 @@ body {
   -moz-transition: .3s linear;
   -o-transition: .3s linear;
   transition: .3s linear;
+  color: #FFFFFF;
+  background-color: #28282B;
+  height: 60px;
+}
+#topLeftContainer .LogoText {
+  font-size: 30px;
+  font-weight: bold;
 }
 #mainheader {
   padding-left: 250px;
   width: 100%;
+  height: 100%;
   -webkit-transition: .3s linear;
   -moz-transition: .3s linear;
   -o-transition: .3s linear;
   transition: .3s linear;
+}
+#mainheader .innerHeader {
+  padding: 12px 20px 12px 20px;
+  height: 100%;
+}
+#mainheader .innerHeader .MenuToggle {
+  font-size: 22px;
+  color: #3F3F46;
+  cursor: pointer;
+  display: block;
+}
+#mainheader .innerHeader .MenuToggle:hover {
+  color: #3F3F46;
+  text-decoration: none;
 }
 #mainheader::after {
   clear: both;
@@ -6859,7 +6893,7 @@ body {
 #mainContainer {
   position: relative;
   overflow: auto;
-  background-color: yellow;
+  background-color: #E5E9EC;
   min-height: 100%;
   padding-left: 250px;
   padding-top: 60px;
@@ -6869,17 +6903,27 @@ body {
   -o-transition: .3s linear;
   transition: .3s linear;
 }
+.InnerContainer {
+  padding: 12px 20px 12px 20px;
+  height: 100%;
+  width: 100%;
+}
 #rightContainer {
   position: fixed;
   right: 0;
   top: 0;
   height: 100%;
   width: 250px;
-  padding-top: 60px;
   z-index: 140;
+  background-color: #18181A;
+  color: #FFFFFF;
 }
 #rightContainer > div {
   max-height: 100%;
+}
+.rightTopContainer {
+  background-color: #28282B;
+  height: 60px;
 }
 .showRightContainer {
   -webkit-transform: translateX(-250px);
@@ -6957,4 +7001,39 @@ body {
     -o-transform: translateX(250px);
     transform: translateX(250px);
   }
+}
+.menuItemsContainer {
+  list-style-type: none;
+  padding: 0 0;
+}
+.menuItemsContainer li {
+  width: 100%;
+  color: #cccccc;
+  line-height: 2;
+  display: block;
+  font-size: 14px;
+  padding: 4px 5px 4px 5px;
+}
+.menuItemsContainer li a {
+  width: 100%;
+  display: block;
+  color: #cccccc;
+  cursor: pointer;
+}
+.menuItemsContainer li a:hover {
+  color: #cccccc;
+  text-decoration: none;
+}
+.menuItemsContainer li::after {
+  content: " ";
+  display: block;
+  border-bottom: 0.1px solid #28282B;
+}
+.menuItemsContainer .menuHeader {
+  text-transform: uppercase;
+  background-color: #28282B;
+  color: #808080;
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 10px;
 }

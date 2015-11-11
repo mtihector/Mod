@@ -1,0 +1,34 @@
+﻿@import "variables.less";
+
+.shell-transition(){
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -o-transition: .3s linear;
+    transition: .3s linear;
+}
+
+
+
+.translateLeft() {
+    -webkit-transform: translateX(0-@right-width);
+    -moz-transform: translateX(0-@right-width);
+    -ms-transform: translateX(0-@right-width);
+    -o-transform: translateX(0-@right-width);
+    transform: translateX(0-@right-width);
+}
+
+.translateZero() {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+}
+
+.translateRight() {
+    -webkit-transform: translateX(@menu-width);
+    -moz-transform: translateX(@menu-width);
+    -ms-transform: translateX(@menu-width);
+    -o-transform: translateX(@menu-width);
+    transform: translateX(@menu-width);
+}

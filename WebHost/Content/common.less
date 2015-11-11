@@ -1,25 +1,44 @@
-﻿html, body{
-  height: 100%;
-  font-size:14px;
+﻿html, body {
+    height: 100%;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
 }
+
 body {
-  min-height: 100%;
+    min-height: 100%;
 }
 
 
 .DropFloat:after {
-    content:"";
-    display:table;
-    clear:both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
-.floatLeft{
-    float:left;
-}
-.floatRight{
-    float:right;
+.floatLeft {
+    float: left;
 }
 
-.maxWidth{
-    width:100%;
+.floatRight {
+    float: right;
+}
+
+.maxWidth {
+    width: 100%;
+}
+
+.flatButton {
+    
+    font-size: 22px;
+    color: @baseTextColor;
+    cursor: pointer;
+    display: block;
+}
+
+.flatButtonOnhover() {
+    color: @baseTextColor;
+    text-decoration: none;
+}
+.flatButton:hover{
+    .flatButtonOnhover
 }

@@ -1,5 +1,5 @@
-﻿define(["text!app/templates/shell.html"],
-    function(template) {
+﻿define(["text!app/templates/shell.html", "Menu/Menu"],
+    function(template, menu) {
 
         return {
             
@@ -10,6 +10,16 @@
 
             },
 
+
+            initMenu: function() {
+                if (this.menu == undefined) {
+                    this.menu = new menu({
+                        el: $("#MenuContainer")
+                    });
+                }
+
+                this.menu.init();
+            },
 
             render : function() {
                 this.el.html(template);
@@ -32,6 +42,8 @@
                     }
                 });
 
+
+                this.initMenu();
             }
         }
     });

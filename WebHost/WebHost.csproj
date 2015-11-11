@@ -214,6 +214,7 @@
     <Content Include="Content\fontawesome\font-awesome.min.css" />
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\images\Logo.png" />
     <Content Include="Content\jquery.scrollbar.css" />
     <Content Include="Content\Site.css">
       <DependentUpon>Site.less</DependentUpon>
@@ -561,6 +562,7 @@
     <Content Include="Scripts\libs\require\require.js" />
     <Content Include="Scripts\libs\require\text.js" />
     <Content Include="Scripts\libs\underscore\underscore.js" />
+    <Content Include="Scripts\modules\Menu\Menu.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -579,7 +581,6 @@
   <ItemGroup>
     <Folder Include="deploy\" />
     <Folder Include="pickupmodules\" />
-    <Folder Include="Scripts\modules\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -673,6 +674,9 @@
     <Content Include="Content\fonts\fontawesome-webfont.woff" />
     <Content Include="Content\fonts\fontawesome-webfont.woff2" />
     <Content Include="Content\fonts\FontAwesome.otf" />
+    <Content Include="Content\menu.less" />
+    <Content Include="Content\mixins.less" />
+    <Content Include="Content\variables.less" />
     <None Include="Project_Readme.html" />
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>

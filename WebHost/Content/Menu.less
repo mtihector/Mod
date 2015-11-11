@@ -1,0 +1,44 @@
+﻿@import "Colors.less";
+@import "variables.less";
+
+
+
+.menuItemsContainer {
+    list-style-type: none;
+    
+    padding: 0 0;
+
+    li{
+        width:100%;
+        color:@LeftContainerColor;
+        line-height:2;
+        display:block;
+        font-size:14px;
+        padding: 4px 5px 4px 5px;
+        
+        a{
+            width:100%;
+            display:block;
+            color:@LeftContainerColor;
+            cursor:pointer;
+        }
+        a:hover{
+            color:@LeftContainerColor;
+            text-decoration:none;
+        }
+    }
+
+    li::after{
+        content:" ";
+        display:block;
+        border-bottom: .1px solid @LeftInnerContainerBackColor;
+    }
+    .menuHeader{
+        text-transform:uppercase;
+        background-color:@LeftInnerContainerBackColor;
+        color:@LeftContainerTitlesColor;
+        font-size:12px;
+        font-weight:bold;
+        padding-left:10px;
+    }
+}

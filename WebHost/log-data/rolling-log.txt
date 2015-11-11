@@ -925,3 +925,189 @@
 2015-11-08 14:41:36,349 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module ModuleActivator  stopped
 2015-11-08 14:41:36,349 DEBUG WebHost.ModuleConfig - Stop Signal sent to module Loader
 2015-11-08 14:41:36,349 DEBUG ASP.global_asax - Application End signal processed
+2015-11-10 18:53:59,472 DEBUG ASP.global_asax - Guarda algo en la bitacora
+2015-11-10 18:53:59,477 DEBUG ASP.global_asax - Iniciando Aplicación
+2015-11-10 18:53:59,752 DEBUG WebHost.ContainerConfig - Asignando SimpleInjector como DependencyResolver 
+2015-11-10 18:53:59,780 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules in plugins path
+2015-11-10 18:53:59,780 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Trying to load module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-10 18:53:59,780 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying new plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-10 18:53:59,780 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying Module Mod.Core.ModuleA.dll
+2015-11-10 18:53:59,797 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll already exists in target folder, deleting..
+2015-11-10 18:53:59,797 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll deleted
+2015-11-10 18:53:59,815 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll succesfully deployed
+2015-11-10 18:53:59,815 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Load new module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll into memory
+2015-11-10 18:53:59,818 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator :ModuleActivator found, starting module
+2015-11-10 18:53:59,864 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator ModuleActivator completed
+2015-11-10 18:53:59,864 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll loaded successfully
+2015-11-10 18:53:59,864 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll loaded
+2015-11-10 18:53:59,864 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Registering container configuration for :Mod.Core.ModuleA.ModuleActivator
+2015-11-10 18:53:59,864 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Mod.Core.ModuleA.ModuleActivator  has been registered sucessfully
+2015-11-10 18:53:59,865 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting module Mod.Core.ModuleA.ModuleActivator
+2015-11-10 18:53:59,867 DEBUG Mod.Core.ModuleA.ModuleActivator - Starting Module Demo
+2015-11-10 18:54:01,324 DEBUG Mod.Core.ModuleA.ModuleActivator - Cambie algo aqui
+2015-11-10 18:54:01,324 DEBUG Mod.Core.ModuleA.ModuleActivator - Module Demo start completed
+2015-11-10 18:54:01,324 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module Mod.Core.ModuleA.ModuleActivator has been started succesfully
+2015-11-10 18:54:01,324 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules has finished
+2015-11-10 19:23:51,041 DEBUG ASP.global_asax - Application End signal received, processing..
+2015-11-10 19:23:51,041 DEBUG WebHost.ModuleConfig - Sending Stop Signal to module Loader
+2015-11-10 19:23:51,041 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping modules
+2015-11-10 19:23:51,041 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping module ModuleActivator
+2015-11-10 19:23:51,041 DEBUG Mod.Core.ModuleA.ModuleActivator - Stopping Module Demo
+2015-11-10 19:23:51,041 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module ModuleActivator  stopped
+2015-11-10 19:23:51,041 DEBUG WebHost.ModuleConfig - Stop Signal sent to module Loader
+2015-11-10 19:23:51,041 DEBUG ASP.global_asax - Application End signal processed
+2015-11-10 19:23:52,119 DEBUG ASP.global_asax - Guarda algo en la bitacora
+2015-11-10 19:23:52,123 DEBUG ASP.global_asax - Iniciando Aplicación
+2015-11-10 19:23:52,151 DEBUG WebHost.ContainerConfig - Asignando SimpleInjector como DependencyResolver 
+2015-11-10 19:23:52,194 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules in plugins path
+2015-11-10 19:23:52,194 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Trying to load module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-10 19:23:52,194 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying new plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-10 19:23:52,194 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying Module Mod.Core.ModuleA.dll
+2015-11-10 19:23:52,194 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll already exists in target folder, deleting..
+2015-11-10 19:23:52,194 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll deleted
+2015-11-10 19:23:52,200 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll succesfully deployed
+2015-11-10 19:23:52,200 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Load new module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll into memory
+2015-11-10 19:23:52,233 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator :ModuleActivator found, starting module
+2015-11-10 19:23:52,259 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator ModuleActivator completed
+2015-11-10 19:23:52,259 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll loaded successfully
+2015-11-10 19:23:52,259 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll loaded
+2015-11-10 19:23:52,259 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Registering container configuration for :Mod.Core.ModuleA.ModuleActivator
+2015-11-10 19:23:52,259 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Mod.Core.ModuleA.ModuleActivator  has been registered sucessfully
+2015-11-10 19:23:52,259 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting module Mod.Core.ModuleA.ModuleActivator
+2015-11-10 19:23:52,260 DEBUG Mod.Core.ModuleA.ModuleActivator - Starting Module Demo
+2015-11-10 19:23:53,960 DEBUG Mod.Core.ModuleA.ModuleActivator - Cambie algo aqui
+2015-11-10 19:23:53,960 DEBUG Mod.Core.ModuleA.ModuleActivator - Module Demo start completed
+2015-11-10 19:23:53,960 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module Mod.Core.ModuleA.ModuleActivator has been started succesfully
+2015-11-10 19:23:53,960 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules has finished
+2015-11-10 20:32:22,683 DEBUG ASP.global_asax - Application End signal received, processing..
+2015-11-10 20:32:22,684 DEBUG WebHost.ModuleConfig - Sending Stop Signal to module Loader
+2015-11-10 20:32:22,684 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping modules
+2015-11-10 20:32:22,684 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping module ModuleActivator
+2015-11-10 20:32:22,684 DEBUG Mod.Core.ModuleA.ModuleActivator - Stopping Module Demo
+2015-11-10 20:32:22,684 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module ModuleActivator  stopped
+2015-11-10 20:32:22,684 DEBUG WebHost.ModuleConfig - Stop Signal sent to module Loader
+2015-11-10 20:32:22,684 DEBUG ASP.global_asax - Application End signal processed
+2015-11-10 20:32:23,123 DEBUG ASP.global_asax - Guarda algo en la bitacora
+2015-11-10 20:32:23,128 DEBUG ASP.global_asax - Iniciando Aplicación
+2015-11-10 20:32:23,156 DEBUG WebHost.ContainerConfig - Asignando SimpleInjector como DependencyResolver 
+2015-11-10 20:32:23,198 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules in plugins path
+2015-11-10 20:32:23,198 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Trying to load module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-10 20:32:23,199 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying new plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-10 20:32:23,199 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying Module Mod.Core.ModuleA.dll
+2015-11-10 20:32:23,199 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll already exists in target folder, deleting..
+2015-11-10 20:32:23,199 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll deleted
+2015-11-10 20:32:23,204 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll succesfully deployed
+2015-11-10 20:32:23,204 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Load new module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll into memory
+2015-11-10 20:32:23,236 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator :ModuleActivator found, starting module
+2015-11-10 20:32:23,263 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator ModuleActivator completed
+2015-11-10 20:32:23,263 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll loaded successfully
+2015-11-10 20:32:23,263 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll loaded
+2015-11-10 20:32:23,263 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Registering container configuration for :Mod.Core.ModuleA.ModuleActivator
+2015-11-10 20:32:23,263 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Mod.Core.ModuleA.ModuleActivator  has been registered sucessfully
+2015-11-10 20:32:23,263 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting module Mod.Core.ModuleA.ModuleActivator
+2015-11-10 20:32:23,264 DEBUG Mod.Core.ModuleA.ModuleActivator - Starting Module Demo
+2015-11-10 20:32:25,017 DEBUG Mod.Core.ModuleA.ModuleActivator - Cambie algo aqui
+2015-11-10 20:32:25,017 DEBUG Mod.Core.ModuleA.ModuleActivator - Module Demo start completed
+2015-11-10 20:32:25,017 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module Mod.Core.ModuleA.ModuleActivator has been started succesfully
+2015-11-10 20:32:25,017 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules has finished
+2015-11-10 20:35:15,133 DEBUG ASP.global_asax - Application End signal received, processing..
+2015-11-10 20:35:15,133 DEBUG WebHost.ModuleConfig - Sending Stop Signal to module Loader
+2015-11-10 20:35:15,133 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping modules
+2015-11-10 20:35:15,133 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping module ModuleActivator
+2015-11-10 20:35:15,133 DEBUG Mod.Core.ModuleA.ModuleActivator - Stopping Module Demo
+2015-11-10 20:35:15,133 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module ModuleActivator  stopped
+2015-11-10 20:35:15,133 DEBUG WebHost.ModuleConfig - Stop Signal sent to module Loader
+2015-11-10 20:35:15,133 DEBUG ASP.global_asax - Application End signal processed
+2015-11-10 20:38:47,214 DEBUG ASP.global_asax - Guarda algo en la bitacora
+2015-11-10 20:38:47,216 DEBUG ASP.global_asax - Iniciando Aplicación
+2015-11-10 20:38:47,240 DEBUG WebHost.ContainerConfig - Asignando SimpleInjector como DependencyResolver 
+2015-11-10 20:38:47,279 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules in plugins path
+2015-11-10 20:38:47,279 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Trying to load module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-10 20:38:47,279 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying new plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-10 20:38:47,279 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying Module Mod.Core.ModuleA.dll
+2015-11-10 20:38:47,279 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll already exists in target folder, deleting..
+2015-11-10 20:38:47,279 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll deleted
+2015-11-10 20:38:47,284 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll succesfully deployed
+2015-11-10 20:38:47,284 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Load new module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll into memory
+2015-11-10 20:38:47,315 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator :ModuleActivator found, starting module
+2015-11-10 20:38:47,334 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator ModuleActivator completed
+2015-11-10 20:38:47,334 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll loaded successfully
+2015-11-10 20:38:47,334 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll loaded
+2015-11-10 20:38:47,334 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Registering container configuration for :Mod.Core.ModuleA.ModuleActivator
+2015-11-10 20:38:47,334 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Mod.Core.ModuleA.ModuleActivator  has been registered sucessfully
+2015-11-10 20:38:47,334 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting module Mod.Core.ModuleA.ModuleActivator
+2015-11-10 20:38:47,335 DEBUG Mod.Core.ModuleA.ModuleActivator - Starting Module Demo
+2015-11-10 20:38:48,077 DEBUG Mod.Core.ModuleA.ModuleActivator - Cambie algo aqui
+2015-11-10 20:38:48,077 DEBUG Mod.Core.ModuleA.ModuleActivator - Module Demo start completed
+2015-11-10 20:38:48,078 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module Mod.Core.ModuleA.ModuleActivator has been started succesfully
+2015-11-10 20:38:48,078 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules has finished
+2015-11-10 20:38:50,020 DEBUG ASP.global_asax - Application End signal received, processing..
+2015-11-10 20:38:50,020 DEBUG WebHost.ModuleConfig - Sending Stop Signal to module Loader
+2015-11-10 20:38:50,020 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping modules
+2015-11-10 20:38:50,020 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping module ModuleActivator
+2015-11-10 20:38:50,020 DEBUG Mod.Core.ModuleA.ModuleActivator - Stopping Module Demo
+2015-11-10 20:38:50,020 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module ModuleActivator  stopped
+2015-11-10 20:38:50,020 DEBUG WebHost.ModuleConfig - Stop Signal sent to module Loader
+2015-11-10 20:38:50,020 DEBUG ASP.global_asax - Application End signal processed
+2015-11-10 20:38:50,850 DEBUG ASP.global_asax - Guarda algo en la bitacora
+2015-11-10 20:38:50,854 DEBUG ASP.global_asax - Iniciando Aplicación
+2015-11-10 20:38:51,032 DEBUG WebHost.ContainerConfig - Asignando SimpleInjector como DependencyResolver 
+2015-11-10 20:38:51,057 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules in plugins path
+2015-11-10 20:38:51,057 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Trying to load module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-10 20:38:51,057 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying new plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-10 20:38:51,057 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying Module Mod.Core.ModuleA.dll
+2015-11-10 20:38:51,057 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll already exists in target folder, deleting..
+2015-11-10 20:38:51,057 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll deleted
+2015-11-10 20:38:51,062 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll succesfully deployed
+2015-11-10 20:38:51,063 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Load new module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll into memory
+2015-11-10 20:38:51,065 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator :ModuleActivator found, starting module
+2015-11-10 20:38:51,091 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator ModuleActivator completed
+2015-11-10 20:38:51,091 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll loaded successfully
+2015-11-10 20:38:51,091 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll loaded
+2015-11-10 20:38:51,091 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Registering container configuration for :Mod.Core.ModuleA.ModuleActivator
+2015-11-10 20:38:51,091 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Mod.Core.ModuleA.ModuleActivator  has been registered sucessfully
+2015-11-10 20:38:51,091 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting module Mod.Core.ModuleA.ModuleActivator
+2015-11-10 20:38:51,092 DEBUG Mod.Core.ModuleA.ModuleActivator - Starting Module Demo
+2015-11-10 20:38:51,264 DEBUG Mod.Core.ModuleA.ModuleActivator - Cambie algo aqui
+2015-11-10 20:38:51,264 DEBUG Mod.Core.ModuleA.ModuleActivator - Module Demo start completed
+2015-11-10 20:38:51,264 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module Mod.Core.ModuleA.ModuleActivator has been started succesfully
+2015-11-10 20:38:51,264 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules has finished
+2015-11-10 20:44:16,155 DEBUG ASP.global_asax - Application End signal received, processing..
+2015-11-10 20:44:16,155 DEBUG WebHost.ModuleConfig - Sending Stop Signal to module Loader
+2015-11-10 20:44:16,155 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping modules
+2015-11-10 20:44:16,156 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping module ModuleActivator
+2015-11-10 20:44:16,156 DEBUG Mod.Core.ModuleA.ModuleActivator - Stopping Module Demo
+2015-11-10 20:44:16,156 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module ModuleActivator  stopped
+2015-11-10 20:44:16,156 DEBUG WebHost.ModuleConfig - Stop Signal sent to module Loader
+2015-11-10 20:44:16,156 DEBUG ASP.global_asax - Application End signal processed
+2015-11-10 20:46:03,422 DEBUG ASP.global_asax - Guarda algo en la bitacora
+2015-11-10 20:46:03,427 DEBUG ASP.global_asax - Iniciando Aplicación
+2015-11-10 20:46:03,453 DEBUG WebHost.ContainerConfig - Asignando SimpleInjector como DependencyResolver 
+2015-11-10 20:46:03,523 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules in plugins path
+2015-11-10 20:46:03,523 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Trying to load module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-10 20:46:03,523 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying new plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-10 20:46:03,523 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying Module Mod.Core.ModuleA.dll
+2015-11-10 20:46:03,523 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll already exists in target folder, deleting..
+2015-11-10 20:46:03,524 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll deleted
+2015-11-10 20:46:03,529 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll succesfully deployed
+2015-11-10 20:46:03,529 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Load new module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll into memory
+2015-11-10 20:46:03,568 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator :ModuleActivator found, starting module
+2015-11-10 20:46:03,595 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator ModuleActivator completed
+2015-11-10 20:46:03,595 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll loaded successfully
+2015-11-10 20:46:03,595 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll loaded
+2015-11-10 20:46:03,595 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Registering container configuration for :Mod.Core.ModuleA.ModuleActivator
+2015-11-10 20:46:03,595 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Mod.Core.ModuleA.ModuleActivator  has been registered sucessfully
+2015-11-10 20:46:03,595 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting module Mod.Core.ModuleA.ModuleActivator
+2015-11-10 20:46:03,597 DEBUG Mod.Core.ModuleA.ModuleActivator - Starting Module Demo
+2015-11-10 20:46:04,856 DEBUG Mod.Core.ModuleA.ModuleActivator - Cambie algo aqui
+2015-11-10 20:46:04,856 DEBUG Mod.Core.ModuleA.ModuleActivator - Module Demo start completed
+2015-11-10 20:46:04,856 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module Mod.Core.ModuleA.ModuleActivator has been started succesfully
+2015-11-10 20:46:04,856 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules has finished
+2015-11-10 21:49:31,939 DEBUG ASP.global_asax - Application End signal received, processing..
+2015-11-10 21:49:31,939 DEBUG WebHost.ModuleConfig - Sending Stop Signal to module Loader
+2015-11-10 21:49:31,939 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping modules
+2015-11-10 21:49:31,939 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping module ModuleActivator
+2015-11-10 21:49:31,939 DEBUG Mod.Core.ModuleA.ModuleActivator - Stopping Module Demo
+2015-11-10 21:49:31,939 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module ModuleActivator  stopped
+2015-11-10 21:49:31,939 DEBUG WebHost.ModuleConfig - Stop Signal sent to module Loader
+2015-11-10 21:49:31,939 DEBUG ASP.global_asax - Application End signal processed

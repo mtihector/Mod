@@ -29,5 +29,7 @@ namespace WebHost.Models
         {
             return new ApplicationDbContext();
         }
+
+        
     }
 }
