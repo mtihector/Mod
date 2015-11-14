@@ -6805,7 +6805,7 @@ body {
   z-index: 999;
   width: 100%;
 }
-#containerRow {
+#mainContainerRegion {
   position: relative;
   height: 100%;
   margin: 0 !important;
@@ -6822,12 +6822,12 @@ body {
   z-index: 150;
   position: relative;
 }
-#containerRow::before,
-#containerRow::after {
+#mainContainerRegion::before,
+#mainContainerRegion::after {
   display: table;
   content: " ";
 }
-#containerRow::after {
+#mainContainerRegion::after {
   clear: both;
 }
 #leftContainer {
@@ -6914,7 +6914,7 @@ body {
   top: 0;
   height: 100%;
   width: 250px;
-  z-index: 140;
+  z-index: 149;
   background-color: #18181A;
   color: #FFFFFF;
 }
@@ -6925,12 +6925,16 @@ body {
   background-color: #28282B;
   height: 60px;
 }
-.showRightContainer {
+.showRightContainer #header,
+.showRightContainer #mainContainerRegion {
   -webkit-transform: translateX(-250px);
   -moz-transform: translateX(-250px);
   -ms-transform: translateX(-250px);
   -o-transform: translateX(-250px);
   transform: translateX(-250px);
+}
+.showRightContainer #rightContainer {
+  z-index: 151;
 }
 .toggleLeftContainer #topLeftContainer {
   -webkit-transform: translateX(-250px);
@@ -6942,14 +6946,14 @@ body {
 .toggleLeftContainer #mainheader {
   padding-left: 0;
 }
-.toggleLeftContainer #containerRow #leftContainer {
+.toggleLeftContainer #mainContainerRegion #leftContainer {
   -webkit-transform: translateX(-250px);
   -moz-transform: translateX(-250px);
   -ms-transform: translateX(-250px);
   -o-transform: translateX(-250px);
   transform: translateX(-250px);
 }
-.toggleLeftContainer #containerRow #mainContainer {
+.toggleLeftContainer #mainContainerRegion #mainContainer {
   padding-left: 0;
 }
 @media (max-width: 767px) {
@@ -6963,14 +6967,14 @@ body {
   #mainheader {
     padding-left: 0;
   }
-  #containerRow #leftContainer {
+  #mainContainerRegion #leftContainer {
     -webkit-transform: translateX(-250px);
     -moz-transform: translateX(-250px);
     -ms-transform: translateX(-250px);
     -o-transform: translateX(-250px);
     transform: translateX(-250px);
   }
-  #containerRow #mainContainer {
+  #mainContainerRegion #mainContainer {
     padding-left: 0;
   }
   .toggleLeftContainer #topLeftContainer {
@@ -6987,14 +6991,14 @@ body {
     -o-transform: translateX(250px);
     transform: translateX(250px);
   }
-  .toggleLeftContainer #containerRow #leftContainer {
+  .toggleLeftContainer #mainContainerRegion #leftContainer {
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
     transform: translateX(0);
   }
-  .toggleLeftContainer #containerRow #mainContainer {
+  .toggleLeftContainer #mainContainerRegion #mainContainer {
     -webkit-transform: translateX(250px);
     -moz-transform: translateX(250px);
     -ms-transform: translateX(250px);
@@ -7002,11 +7006,16 @@ body {
     transform: translateX(250px);
   }
 }
-.menuItemsContainer {
+.menuItemsContainer ul {
   list-style-type: none;
   padding: 0 0;
+  /*li::after{
+        content:" ";
+        display:block;
+        border-bottom: .1px solid @LeftInnerContainerBackColor;
+    }*/
 }
-.menuItemsContainer li {
+.menuItemsContainer ul li {
   width: 100%;
   color: #cccccc;
   line-height: 2;
@@ -7014,22 +7023,17 @@ body {
   font-size: 14px;
   padding: 4px 5px 4px 5px;
 }
-.menuItemsContainer li a {
+.menuItemsContainer ul li a {
   width: 100%;
   display: block;
   color: #cccccc;
   cursor: pointer;
 }
-.menuItemsContainer li a:hover {
+.menuItemsContainer ul li a:hover {
   color: #cccccc;
   text-decoration: none;
 }
-.menuItemsContainer li::after {
-  content: " ";
-  display: block;
-  border-bottom: 0.1px solid #28282B;
-}
-.menuItemsContainer .menuHeader {
+.menuItemsContainer ul .menuHeader > div > a {
   text-transform: uppercase;
   background-color: #28282B;
   color: #808080;

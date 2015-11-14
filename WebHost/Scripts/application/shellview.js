@@ -1,6 +1,8 @@
-﻿define(["text!app/templates/shell.html", "Menu/Menu"],
-    function(template, menu) {
-
+﻿"use strict";
+define(["text!app/templates/shell.html", "Menu/Menu", "jquery", "jqueryscrollbar"],
+    
+    function(template, menu, $) {
+        
         return {
             
 
@@ -26,10 +28,10 @@
                 
                 $('.scrollbar-inner').scrollbar();
                 $("#toggleRight").on("click", function() {
-                    if ($("#pageBaseContainer").hasClass("showRightContainer")) {
-                        $("#pageBaseContainer").removeClass("showRightContainer");
+                    if ($("body").hasClass("showRightContainer")) {
+                        $("body").removeClass("showRightContainer");
                     } else {
-                        $("#pageBaseContainer").addClass("showRightContainer");
+                        $("body").addClass("showRightContainer");
                     }
                 });
 

@@ -4,6 +4,8 @@
 @import "mixins.less";
 @import "variables.less";
 
+
+
 #header {
     height: @header-height;
     background-color: @baseBackColor;
@@ -14,7 +16,7 @@
 }
 
 
-#containerRow {
+#mainContainerRegion {
     position: relative;
     height: 100%;
     margin: 0 !important;
@@ -26,18 +28,18 @@
 
 #pageBaseContainer {
     .shell-transition;
-    z-index: 150;
+    z-index: @zindexbody;
     position: relative;
 }
 
 
-#containerRow::before,
-#containerRow::after {
+#mainContainerRegion::before,
+#mainContainerRegion::after {
     display: table;
     content: " ";
 }
 
-#containerRow::after {
+#mainContainerRegion::after {
     clear: both;
 }
 
@@ -126,7 +128,7 @@
     top: 0;
     height: 100%;
     width: @right-width;
-    z-index: 140;
+    z-index: @zindexbody - 1;
     background-color: @RightContainerBackColor;
     color: @baseBackColor;
 
@@ -140,8 +142,13 @@
     height: @header-height;
 }
 
-.showRightContainer {
+.showRightContainer #header,
+.showRightContainer #mainContainerRegion{
     .translateLeft;
+}
+
+.showRightContainer  #rightContainer{
+     z-index: @zindexbody + 1;
 }
 
 
@@ -156,7 +163,7 @@
         padding-left: 0;
     }
 
-    #containerRow {
+    #mainContainerRegion {
 
         #leftContainer {
             .translateLeft;
@@ -182,7 +189,7 @@
         padding-left: 0;
     }
 
-    #containerRow {
+    #mainContainerRegion {
 
         #leftContainer {
             .translateLeft;
@@ -204,7 +211,7 @@
             .translateRight;
         }
 
-        #containerRow {
+        #mainContainerRegion {
 
             #leftContainer {
                 .translateZero;

@@ -557,12 +557,15 @@
     <Content Include="Scripts\libs\jqueryscrollbar\jquery.scrollbar.js" />
     <Content Include="Scripts\libs\JQuery\jquery.js" />
     <Content Include="Scripts\libs\knockout\knockout.js" />
+    <Content Include="Scripts\libs\mod\mod.js" />
     <Content Include="Scripts\libs\require\css.js" />
     <Content Include="Scripts\libs\require\domReady.js" />
     <Content Include="Scripts\libs\require\require.js" />
     <Content Include="Scripts\libs\require\text.js" />
+    <Content Include="Scripts\libs\rsvp\rsvp.js" />
     <Content Include="Scripts\libs\underscore\underscore.js" />
     <Content Include="Scripts\modules\Menu\Menu.js" />
+    <Content Include="Scripts\modules\Menu\templates\MenuDemo.html" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

@@ -1,4 +1,6 @@
-﻿define([], function () {
+﻿"use strict";
+define(["text!Menu/templates/MenuDemo.html",
+"lib/mod/mod"], function (template, mod) {
 
     return function (opts) {
 
@@ -10,20 +12,27 @@
                
             },
             render: function () {
-                this.el.html("");
-                this.el.append("<ul class=\"menuItemsContainer\"> </ul>");
+                this.el.html(template);
+                mod.sendQuery({
+                    "$type": "Mod.Core.ModuleApi.Impl.MenuQuery, Mod.Core, Version = 1.0.0.0, Culture = neutral, PublicKeyToken = null"
+                }).then(function(items) {
+                    alert("Received: " + items.length);
+                }, function(error) {
+                    alert("error" + error);
+                });
+                //this.el.append("<ul class=\"menuItemsContainer\"> </ul>");
 
-                var innerContainer = this.el.find("ul");
+                //var innerContainer = this.el.find("ul");
 
 
-                innerContainer.append("<li class=\"menuHeader\">Security</li>");
-                innerContainer.append("<li><a>Users</a></li>");
-                innerContainer.append("<li><a>Permissions</a></li>");
-                innerContainer.append("<li><a>Security Map</a></li>");
+                //innerContainer.append("<li class=\"menuHeader\">Security</li>");
+                //innerContainer.append("<li><a>Users</a></li>");
+                //innerContainer.append("<li><a>Permissions</a></li>");
+                //innerContainer.append("<li><a>Security Map</a></li>");
 
-                innerContainer.append("<li class=\"menuHeader\">Tickets</li>");
-                innerContainer.append("<li><a>View Tickets</a></li>");
-                innerContainer.append("<li><a>Dashboard</a></li>");
+                //innerContainer.append("<li class=\"menuHeader\">Tickets</li>");
+                //innerContainer.append("<li><a>View Tickets</a></li>");
+                //innerContainer.append("<li><a>Dashboard</a></li>");
 
             },
             init: function () {

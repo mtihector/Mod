@@ -1,18 +1,27 @@
-﻿requirejs.config({
-    
-    baseUrl: urlpreffix+'Scripts/modules',
+﻿
+requirejs.config({
+    baseUrl: urlpreffix + 'Scripts/modules',
 
     paths: {
         lib: urlpreffix + 'Scripts/libs',
-        app: urlpreffix+'Scripts/application',
-        styles: urlpreffix+'/Content',
-        text: urlpreffix+'Scripts/libs/require/text',
-        css: urlpreffix+'Scripts/libs/require/css',
-        domReady: urlpreffix+'Scripts/libs/require/domReady',
-        ace: urlpreffix+'Scripts/libs/ace/ace',
-        aclanguage_tools: urlpreffix+'Scripts/libs/ace/ext-language_tools',
 
-        'beautify':urlpreffix+'Scripts/libs/beautify/beautify',
+        jquery: urlpreffix + 'Scripts/libs/JQuery/jquery',
+        underscore: urlpreffix + 'Scripts/libs/underscore/underscore',
+        knockout: urlpreffix + 'Scripts/libs/knockout/knockout',
+        bootstrap: urlpreffix + 'Scripts/libs/Bootstrap/bootstrap',
+        jqueryscrollbar: urlpreffix + 'Scripts/libs/jqueryscrollbar/jquery.scrollbar',
+
+
+        app: urlpreffix + 'Scripts/application',
+        styles: urlpreffix + '/Content',
+        text: urlpreffix + 'Scripts/libs/require/text',
+        css: urlpreffix + 'Scripts/libs/require/css',
+        domReady: urlpreffix + 'Scripts/libs/require/domReady',
+        ace: urlpreffix + 'Scripts/libs/ace/ace',
+        aclanguage_tools: urlpreffix + 'Scripts/libs/ace/ext-language_tools',
+
+
+        'beautify': urlpreffix + 'Scripts/libs/beautify/beautify',
         'beautify-css': urlpreffix + 'Scripts/libs/beautify/beautify-css',
         'beautify-html': urlpreffix + 'Scripts/libs/beautify/beautify-html'
 
@@ -46,7 +55,7 @@
             deps: ['beautify-css']
         }
 
-     /*  'highcharts': {
+        /*  'highcharts': {
             exports: "Highcharts"
         },
         'highmaps': {
@@ -80,12 +89,12 @@
         */
     },
 
-    urlArgs: 'bust=' + (new Date()).getTime()
+    urlArgs: 'bust=develo' //+ (new Date()).getTime()
 
 });
 
 
-require(["app/shellView"], function(shell) {
+require(["app/shellView", "jquery"], function(shell, $) {
     shell.initialize($("body"));
 });
 

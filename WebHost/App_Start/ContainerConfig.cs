@@ -1,6 +1,7 @@
 using System.Web.Http;
 using log4net;
 using Mod.Core.Cqrs;
+using Mod.Core.ModuleApi.Impl;
 using SimpleInjector;
 using SimpleInjector.Integration.WebApi;
 
@@ -16,9 +17,17 @@ namespace WebHost
             log.Debug("Asignando SimpleInjector como DependencyResolver ");
             Container container = new Container();
             container.Options.AllowOverridingRegistrations = true;
+
             container.Register<ICommandBusService, CommandBusService>(Lifestyle.Singleton);
+            container.Register<IQueryBusService, QueryBusService>(Lifestyle.Singleton);
+            
+
             GlobalConfiguration.Configuration.DependencyResolver = new SimpleInjectorWebApiDependencyResolver(container);
             ModuleConfig.RegisterComponents(container); // <-- New Class
+
+
+            container.GetInstance<IQueryBusService>().RegisterQueryHandler<MenuQuery, MenuQueryHandler>();
+
         }
 
 

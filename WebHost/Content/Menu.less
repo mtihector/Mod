@@ -3,7 +3,7 @@
 
 
 
-.menuItemsContainer {
+.menuItemsContainer ul{
     list-style-type: none;
     
     padding: 0 0;
@@ -28,12 +28,13 @@
         }
     }
 
-    li::after{
+    /*li::after{
         content:" ";
         display:block;
         border-bottom: .1px solid @LeftInnerContainerBackColor;
-    }
-    .menuHeader{
+    }*/
+    .menuHeader > div > a{
+
         text-transform:uppercase;
         background-color:@LeftInnerContainerBackColor;
         color:@LeftContainerTitlesColor;
