@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Mod.Core.ModuleApi.Menu;
 
-namespace Mod.Core.ModuleApi.Impl
+namespace Mod.Core.ModuleApi.Impl.Menu
 {
     public class MenuService : IMenuService
     {

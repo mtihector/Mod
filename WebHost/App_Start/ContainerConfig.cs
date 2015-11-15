@@ -2,6 +2,8 @@ using System.Web.Http;
 using log4net;
 using Mod.Core.Cqrs;
 using Mod.Core.ModuleApi.Impl;
+using Mod.Core.ModuleApi.Impl.Menu;
+using Mod.Core.ModuleApi.Impl.Routes;
 using SimpleInjector;
 using SimpleInjector.Integration.WebApi;
 
@@ -26,7 +28,10 @@ namespace WebHost
             ModuleConfig.RegisterComponents(container); // <-- New Class
 
 
+            //TODO : Move this to init Infrastructure
             container.GetInstance<IQueryBusService>().RegisterQueryHandler<MenuQuery, MenuQueryHandler>();
+            container.GetInstance<IQueryBusService>().RegisterQueryHandler<RouteQuery, RouteQueryHandler>();
+
 
         }
 

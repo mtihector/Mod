@@ -1,30 +1,32 @@
 ﻿
+
 requirejs.config({
-    baseUrl: urlpreffix + 'Scripts/modules',
+    baseUrl: window.urlpreffix + "Scripts/modules",
 
     paths: {
-        lib: urlpreffix + 'Scripts/libs',
+        lib: window.urlpreffix + "Scripts/libs",
 
-        jquery: urlpreffix + 'Scripts/libs/JQuery/jquery',
-        underscore: urlpreffix + 'Scripts/libs/underscore/underscore',
-        knockout: urlpreffix + 'Scripts/libs/knockout/knockout',
-        bootstrap: urlpreffix + 'Scripts/libs/Bootstrap/bootstrap',
-        jqueryscrollbar: urlpreffix + 'Scripts/libs/jqueryscrollbar/jquery.scrollbar',
+        jquery: window.urlpreffix + "Scripts/libs/JQuery/jquery",
+        underscore: window.urlpreffix + "Scripts/libs/underscore/underscore",
+        knockout: window.urlpreffix + "Scripts/libs/knockout/knockout",
+        bootstrap: window.urlpreffix + "Scripts/libs/Bootstrap/bootstrap",
+        jqueryscrollbar: window.urlpreffix + "Scripts/libs/jqueryscrollbar/jquery.scrollbar",
+        backbone: window.urlpreffix + "Scripts/libs/backbone/backbone",
+        underscore: window.urlpreffix + "Scripts/libs/underscore/underscore",
+
+        app: window.urlpreffix + "Scripts/application",
+        styles: window.urlpreffix + "/Content",
+        text: window.urlpreffix + "Scripts/libs/require/text",
+        css: window.urlpreffix + "Scripts/libs/require/css",
+        domReady: window.urlpreffix + "Scripts/libs/require/domReady",
+        ace: window.urlpreffix + "Scripts/libs/ace/ace",
+        aclanguage_tools: window.urlpreffix + "Scripts/libs/ace/ext-language_tools",
 
 
-        app: urlpreffix + 'Scripts/application',
-        styles: urlpreffix + '/Content',
-        text: urlpreffix + 'Scripts/libs/require/text',
-        css: urlpreffix + 'Scripts/libs/require/css',
-        domReady: urlpreffix + 'Scripts/libs/require/domReady',
-        ace: urlpreffix + 'Scripts/libs/ace/ace',
-        aclanguage_tools: urlpreffix + 'Scripts/libs/ace/ext-language_tools',
-
-
-        'beautify': urlpreffix + 'Scripts/libs/beautify/beautify',
-        'beautify-css': urlpreffix + 'Scripts/libs/beautify/beautify-css',
-        'beautify-html': urlpreffix + 'Scripts/libs/beautify/beautify-html'
-
+        'beautify': window.urlpreffix + "Scripts/libs/beautify/beautify",
+        'beautify-css': window.urlpreffix + "Scripts/libs/beautify/beautify-css",
+        'beautify-html': window.urlpreffix + "Scripts/libs/beautify/beautify-html",
+      
 
         /*async: '../js/libs/require/async',
         goog: '../js/libs/require/goog',

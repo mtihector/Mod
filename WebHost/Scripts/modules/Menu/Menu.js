@@ -9,15 +9,22 @@ define(["text!Menu/templates/MenuDemo.html",
         return {
             el: opts.el,
             templates: {
-               
+
             },
             render: function () {
                 this.el.html(template);
+
+                this.el.find("a").on("click", function (e) {
+                    e.preventDefault();
+                    Backbone.history.navigate($(this).attr("href"), true);
+                });
                 mod.sendQuery({
-                    "$type": "Mod.Core.ModuleApi.Impl.MenuQuery, Mod.Core, Version = 1.0.0.0, Culture = neutral, PublicKeyToken = null"
-                }).then(function(items) {
-                    alert("Received: " + items.length);
-                }, function(error) {
+                    "$type": "Mod.Core.ModuleApi.Impl.Menu.MenuQuery, Mod.Core, Version = 1.0.0.0, Culture = neutral, PublicKeyToken = null"
+                }).then(function (items) {
+                    //    alert("Received: " + items.length);
+                    console.log("Received: " + items.length);
+                    
+                }, function (error) {
                     alert("error" + error);
                 });
                 //this.el.append("<ul class=\"menuItemsContainer\"> </ul>");

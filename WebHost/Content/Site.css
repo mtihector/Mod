@@ -6812,7 +6812,12 @@ body {
   background-color: #E5E9EC;
   left: 0;
   right: 0;
-  overflow-x: hidden;
+}
+body {
+  -webkit-transition: .3s linear;
+  -moz-transition: .3s linear;
+  -o-transition: .3s linear;
+  transition: .3s linear;
 }
 #pageBaseContainer {
   -webkit-transition: .3s linear;
@@ -6821,6 +6826,7 @@ body {
   transition: .3s linear;
   z-index: 150;
   position: relative;
+  height: 100%;
 }
 #mainContainerRegion::before,
 #mainContainerRegion::after {
@@ -6892,7 +6898,7 @@ body {
 }
 #mainContainer {
   position: relative;
-  overflow: auto;
+  overflow: hidden;
   background-color: #E5E9EC;
   min-height: 100%;
   padding-left: 250px;
@@ -6902,6 +6908,12 @@ body {
   -moz-transition: .3s linear;
   -o-transition: .3s linear;
   transition: .3s linear;
+}
+#mainContainer #ModuleContainer {
+  min-height: 100%;
+  max-height: 100%;
+  position: relative;
+  overflow: auto;
 }
 .InnerContainer {
   padding: 12px 20px 12px 20px;
@@ -6925,6 +6937,13 @@ body {
   background-color: #28282B;
   height: 60px;
 }
+#header,
+#mainContainerRegion {
+  -webkit-transition: .3s linear;
+  -moz-transition: .3s linear;
+  -o-transition: .3s linear;
+  transition: .3s linear;
+}
 .showRightContainer #header,
 .showRightContainer #mainContainerRegion {
   -webkit-transform: translateX(-250px);
@@ -6934,6 +6953,10 @@ body {
   transform: translateX(-250px);
 }
 .showRightContainer #rightContainer {
+  -webkit-transition: .6s linear;
+  -moz-transition: .6s linear;
+  -o-transition: .6s linear;
+  transition: .6s linear;
   z-index: 151;
 }
 .toggleLeftContainer #topLeftContainer {

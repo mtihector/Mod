@@ -10,7 +10,8 @@ namespace Mod.Core.ModuleApi.Menu
     {
         string MenuItemName { get; }
         string ModuleBelongs { get; }
-        string Path { get; }
+        string MenuPath { get; }
+        string Route { get; }
         
 
         

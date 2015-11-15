@@ -23,13 +23,17 @@
     background-color: @MainContainerBackColor;
     left: 0;
     right: 0;
-    overflow-x: hidden;
+    
 }
 
+body{
+     .shell-transition;    
+}
 #pageBaseContainer {
-    .shell-transition;
+    .shell-transition;    
     z-index: @zindexbody;
     position: relative;
+    height:100%;
 }
 
 
@@ -54,7 +58,7 @@
     z-index: 200;
     overflow-y: hidden;
     .shell-transition;
-    //This is the div that is used by the scroll plugin
+    //This div is used by the scroll plugin;
     > div {
         max-height: 100%;
     }
@@ -107,13 +111,21 @@
 
 #mainContainer {
     position: relative;
-    overflow: auto;
+    overflow: hidden;
     background-color: @MainContainerBackColor;
     min-height: 100%;
+    
     padding-left: @menu-width;
     padding-top: @header-height;
     z-index: 150;
     .shell-transition;
+
+    #ModuleContainer{
+        min-height: 100%;
+        max-height: 100%;
+        position:relative;
+        overflow:auto;
+    }
 }
 
 .InnerContainer {
@@ -142,12 +154,19 @@
     height: @header-height;
 }
 
+#header, #mainContainerRegion{
+    .shell-transition;    
+}
+
+
+
 .showRightContainer #header,
 .showRightContainer #mainContainerRegion{
     .translateLeft;
 }
 
 .showRightContainer  #rightContainer{
+    .right-transition;
      z-index: @zindexbody + 1;
 }
 

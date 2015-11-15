@@ -2743,3 +2743,380 @@
 2015-11-14 11:55:10,983 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module ModuleActivator  stopped
 2015-11-14 11:55:10,983 DEBUG WebHost.ModuleConfig - Stop Signal sent to module Loader
 2015-11-14 11:55:10,983 DEBUG ASP.global_asax - Application End signal processed
+2015-11-14 12:32:23,044 DEBUG ASP.global_asax - Guarda algo en la bitacora
+2015-11-14 12:32:23,049 DEBUG ASP.global_asax - Iniciando Aplicación
+2015-11-14 12:32:23,344 DEBUG WebHost.ContainerConfig - Asignando SimpleInjector como DependencyResolver 
+2015-11-14 12:32:23,371 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules in plugins path
+2015-11-14 12:32:23,371 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Trying to load module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-14 12:32:23,371 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying new plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-14 12:32:23,371 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying Module Mod.Core.ModuleA.dll
+2015-11-14 12:32:23,371 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll already exists in target folder, deleting..
+2015-11-14 12:32:23,371 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll deleted
+2015-11-14 12:32:23,377 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll succesfully deployed
+2015-11-14 12:32:23,377 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Load new module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll into memory
+2015-11-14 12:32:23,379 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator :ModuleActivator found, starting module
+2015-11-14 12:32:23,408 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator ModuleActivator completed
+2015-11-14 12:32:23,408 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll loaded successfully
+2015-11-14 12:32:23,408 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll loaded
+2015-11-14 12:32:23,408 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Registering container configuration for :Mod.Core.ModuleA.ModuleActivator
+2015-11-14 12:32:23,408 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Mod.Core.ModuleA.ModuleActivator  has been registered sucessfully
+2015-11-14 12:32:23,408 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting module Mod.Core.ModuleA.ModuleActivator
+2015-11-14 12:32:23,409 DEBUG Mod.Core.ModuleA.ModuleActivator - Starting Module Demo
+2015-11-14 12:32:25,100 DEBUG Mod.Core.ModuleA.ModuleActivator - Cambie algo aqui
+2015-11-14 12:32:25,100 DEBUG Mod.Core.ModuleA.ModuleActivator - Module Demo start completed
+2015-11-14 12:32:25,100 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module Mod.Core.ModuleA.ModuleActivator has been started succesfully
+2015-11-14 12:32:25,100 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules has finished
+2015-11-14 12:32:25,107 DEBUG Mod.Core.Cqrs.QueryBusService - Constructing Query Bus Service
+2015-11-14 12:32:25,107 DEBUG Mod.Core.Cqrs.QueryBusService - Query Bus Service Constructed Successfully
+2015-11-14 12:32:26,889 DEBUG Mod.Core.Cqrs.CommandBusService - Constructing Command Bus Service
+2015-11-14 12:32:26,889 DEBUG Mod.Core.Cqrs.CommandBusService - Command Bus Service Constructed Successfully
+2015-11-14 12:32:41,695 DEBUG ASP.global_asax - Application End signal received, processing..
+2015-11-14 12:32:41,695 DEBUG WebHost.ModuleConfig - Sending Stop Signal to module Loader
+2015-11-14 12:32:41,695 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping modules
+2015-11-14 12:32:41,695 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping module ModuleActivator
+2015-11-14 12:32:41,695 DEBUG Mod.Core.ModuleA.ModuleActivator - Stopping Module Demo
+2015-11-14 12:32:41,695 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module ModuleActivator  stopped
+2015-11-14 12:32:41,695 DEBUG WebHost.ModuleConfig - Stop Signal sent to module Loader
+2015-11-14 12:32:41,695 DEBUG ASP.global_asax - Application End signal processed
+2015-11-14 12:32:42,942 DEBUG ASP.global_asax - Guarda algo en la bitacora
+2015-11-14 12:32:42,947 DEBUG ASP.global_asax - Iniciando Aplicación
+2015-11-14 12:32:43,228 DEBUG WebHost.ContainerConfig - Asignando SimpleInjector como DependencyResolver 
+2015-11-14 12:32:43,254 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules in plugins path
+2015-11-14 12:32:43,254 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Trying to load module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-14 12:32:43,254 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying new plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-14 12:32:43,254 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying Module Mod.Core.ModuleA.dll
+2015-11-14 12:32:43,254 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll already exists in target folder, deleting..
+2015-11-14 12:32:43,254 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll deleted
+2015-11-14 12:32:43,259 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll succesfully deployed
+2015-11-14 12:32:43,259 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Load new module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll into memory
+2015-11-14 12:32:43,261 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator :ModuleActivator found, starting module
+2015-11-14 12:32:43,293 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator ModuleActivator completed
+2015-11-14 12:32:43,293 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll loaded successfully
+2015-11-14 12:32:43,293 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll loaded
+2015-11-14 12:32:43,294 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Registering container configuration for :Mod.Core.ModuleA.ModuleActivator
+2015-11-14 12:32:43,294 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Mod.Core.ModuleA.ModuleActivator  has been registered sucessfully
+2015-11-14 12:32:43,294 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting module Mod.Core.ModuleA.ModuleActivator
+2015-11-14 12:32:43,295 DEBUG Mod.Core.ModuleA.ModuleActivator - Starting Module Demo
+2015-11-14 12:32:44,488 DEBUG Mod.Core.ModuleA.ModuleActivator - Cambie algo aqui
+2015-11-14 12:32:44,488 DEBUG Mod.Core.ModuleA.ModuleActivator - Module Demo start completed
+2015-11-14 12:32:44,488 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module Mod.Core.ModuleA.ModuleActivator has been started succesfully
+2015-11-14 12:32:44,488 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules has finished
+2015-11-14 12:32:44,496 DEBUG Mod.Core.Cqrs.QueryBusService - Constructing Query Bus Service
+2015-11-14 12:32:44,496 DEBUG Mod.Core.Cqrs.QueryBusService - Query Bus Service Constructed Successfully
+2015-11-14 12:32:47,753 DEBUG Mod.Core.Cqrs.CommandBusService - Constructing Command Bus Service
+2015-11-14 12:32:47,753 DEBUG Mod.Core.Cqrs.CommandBusService - Command Bus Service Constructed Successfully
+2015-11-14 13:01:48,172 DEBUG ASP.global_asax - Application End signal received, processing..
+2015-11-14 13:01:48,172 DEBUG WebHost.ModuleConfig - Sending Stop Signal to module Loader
+2015-11-14 13:01:48,172 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping modules
+2015-11-14 13:01:48,172 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping module ModuleActivator
+2015-11-14 13:01:48,172 DEBUG Mod.Core.ModuleA.ModuleActivator - Stopping Module Demo
+2015-11-14 13:01:48,172 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module ModuleActivator  stopped
+2015-11-14 13:01:48,172 DEBUG WebHost.ModuleConfig - Stop Signal sent to module Loader
+2015-11-14 13:01:48,172 DEBUG ASP.global_asax - Application End signal processed
+2015-11-14 13:59:28,982 DEBUG ASP.global_asax - Guarda algo en la bitacora
+2015-11-14 13:59:28,988 DEBUG ASP.global_asax - Iniciando Aplicación
+2015-11-14 13:59:29,265 DEBUG WebHost.ContainerConfig - Asignando SimpleInjector como DependencyResolver 
+2015-11-14 13:59:29,296 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules in plugins path
+2015-11-14 13:59:29,297 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Trying to load module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-14 13:59:29,297 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying new plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-14 13:59:29,297 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying Module Mod.Core.ModuleA.dll
+2015-11-14 13:59:29,297 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll already exists in target folder, deleting..
+2015-11-14 13:59:29,297 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll deleted
+2015-11-14 13:59:29,319 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll succesfully deployed
+2015-11-14 13:59:29,319 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Load new module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll into memory
+2015-11-14 13:59:29,322 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator :ModuleActivator found, starting module
+2015-11-14 13:59:29,369 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator ModuleActivator completed
+2015-11-14 13:59:29,369 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll loaded successfully
+2015-11-14 13:59:29,369 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll loaded
+2015-11-14 13:59:29,369 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Registering container configuration for :Mod.Core.ModuleA.ModuleActivator
+2015-11-14 13:59:29,369 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Mod.Core.ModuleA.ModuleActivator  has been registered sucessfully
+2015-11-14 13:59:29,369 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting module Mod.Core.ModuleA.ModuleActivator
+2015-11-14 13:59:29,371 DEBUG Mod.Core.ModuleA.ModuleActivator - Starting Module Demo
+2015-11-14 13:59:30,810 DEBUG Mod.Core.ModuleA.ModuleActivator - Cambie algo aqui
+2015-11-14 13:59:30,810 DEBUG Mod.Core.ModuleA.ModuleActivator - Module Demo start completed
+2015-11-14 13:59:30,810 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module Mod.Core.ModuleA.ModuleActivator has been started succesfully
+2015-11-14 13:59:30,810 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules has finished
+2015-11-14 13:59:30,818 DEBUG Mod.Core.Cqrs.QueryBusService - Constructing Query Bus Service
+2015-11-14 13:59:30,818 DEBUG Mod.Core.Cqrs.QueryBusService - Query Bus Service Constructed Successfully
+2015-11-14 13:59:32,145 DEBUG Mod.Core.Cqrs.CommandBusService - Constructing Command Bus Service
+2015-11-14 13:59:32,145 DEBUG Mod.Core.Cqrs.CommandBusService - Command Bus Service Constructed Successfully
+2015-11-14 14:56:57,057 DEBUG ASP.global_asax - Application End signal received, processing..
+2015-11-14 14:56:57,057 DEBUG WebHost.ModuleConfig - Sending Stop Signal to module Loader
+2015-11-14 14:56:57,058 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping modules
+2015-11-14 14:56:57,058 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping module ModuleActivator
+2015-11-14 14:56:57,058 DEBUG Mod.Core.ModuleA.ModuleActivator - Stopping Module Demo
+2015-11-14 14:56:57,058 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module ModuleActivator  stopped
+2015-11-14 14:56:57,058 DEBUG WebHost.ModuleConfig - Stop Signal sent to module Loader
+2015-11-14 14:56:57,058 DEBUG ASP.global_asax - Application End signal processed
+2015-11-15 10:34:08,683 DEBUG ASP.global_asax - Guarda algo en la bitacora
+2015-11-15 10:34:08,688 DEBUG ASP.global_asax - Iniciando Aplicación
+2015-11-15 10:34:08,970 DEBUG WebHost.ContainerConfig - Asignando SimpleInjector como DependencyResolver 
+2015-11-15 10:34:08,997 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules in plugins path
+2015-11-15 10:34:08,997 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Trying to load module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-15 10:34:08,997 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying new plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-15 10:34:08,997 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying Module Mod.Core.ModuleA.dll
+2015-11-15 10:34:08,997 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll already exists in target folder, deleting..
+2015-11-15 10:34:08,997 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll deleted
+2015-11-15 10:34:09,012 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll succesfully deployed
+2015-11-15 10:34:09,012 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Load new module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll into memory
+2015-11-15 10:34:09,015 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator :ModuleActivator found, starting module
+2015-11-15 10:34:09,050 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator ModuleActivator completed
+2015-11-15 10:34:09,050 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll loaded successfully
+2015-11-15 10:34:09,050 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll loaded
+2015-11-15 10:34:09,050 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Registering container configuration for :Mod.Core.ModuleA.ModuleActivator
+2015-11-15 10:34:09,050 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Mod.Core.ModuleA.ModuleActivator  has been registered sucessfully
+2015-11-15 10:34:09,050 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting module Mod.Core.ModuleA.ModuleActivator
+2015-11-15 10:34:09,052 DEBUG Mod.Core.ModuleA.ModuleActivator - Starting Module Demo
+2015-11-15 10:34:10,506 DEBUG Mod.Core.ModuleA.ModuleActivator - Cambie algo aqui
+2015-11-15 10:34:10,506 DEBUG Mod.Core.ModuleA.ModuleActivator - Module Demo start completed
+2015-11-15 10:34:10,506 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module Mod.Core.ModuleA.ModuleActivator has been started succesfully
+2015-11-15 10:34:10,506 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules has finished
+2015-11-15 10:34:10,514 DEBUG Mod.Core.Cqrs.QueryBusService - Constructing Query Bus Service
+2015-11-15 10:34:10,514 DEBUG Mod.Core.Cqrs.QueryBusService - Query Bus Service Constructed Successfully
+2015-11-15 10:34:11,858 DEBUG Mod.Core.Cqrs.CommandBusService - Constructing Command Bus Service
+2015-11-15 10:34:11,858 DEBUG Mod.Core.Cqrs.CommandBusService - Command Bus Service Constructed Successfully
+2015-11-15 10:34:43,475 DEBUG ASP.global_asax - Application End signal received, processing..
+2015-11-15 10:34:43,475 DEBUG WebHost.ModuleConfig - Sending Stop Signal to module Loader
+2015-11-15 10:34:43,475 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping modules
+2015-11-15 10:34:43,475 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping module ModuleActivator
+2015-11-15 10:34:43,475 DEBUG Mod.Core.ModuleA.ModuleActivator - Stopping Module Demo
+2015-11-15 10:34:43,475 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module ModuleActivator  stopped
+2015-11-15 10:34:43,475 DEBUG WebHost.ModuleConfig - Stop Signal sent to module Loader
+2015-11-15 10:34:43,475 DEBUG ASP.global_asax - Application End signal processed
+2015-11-15 16:17:08,293 DEBUG ASP.global_asax - Guarda algo en la bitacora
+2015-11-15 16:17:08,297 DEBUG ASP.global_asax - Iniciando Aplicación
+2015-11-15 16:17:08,511 DEBUG WebHost.ContainerConfig - Asignando SimpleInjector como DependencyResolver 
+2015-11-15 16:17:08,539 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules in plugins path
+2015-11-15 16:17:08,539 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Trying to load module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-15 16:17:08,540 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying new plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-15 16:17:08,540 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying Module Mod.Core.ModuleA.dll
+2015-11-15 16:17:08,540 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll already exists in target folder, deleting..
+2015-11-15 16:17:08,540 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll deleted
+2015-11-15 16:17:08,545 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll succesfully deployed
+2015-11-15 16:17:08,546 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Load new module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll into memory
+2015-11-15 16:17:08,548 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator :ModuleActivator found, starting module
+2015-11-15 16:17:08,593 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator ModuleActivator completed
+2015-11-15 16:17:08,593 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll loaded successfully
+2015-11-15 16:17:08,593 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll loaded
+2015-11-15 16:17:08,593 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Registering container configuration for :Mod.Core.ModuleA.ModuleActivator
+2015-11-15 16:17:08,593 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Mod.Core.ModuleA.ModuleActivator  has been registered sucessfully
+2015-11-15 16:17:08,593 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting module Mod.Core.ModuleA.ModuleActivator
+2015-11-15 16:17:08,593 DEBUG Mod.Core.ModuleA.ModuleActivator - Starting Module Demo
+2015-11-15 16:17:09,981 DEBUG Mod.Core.ModuleA.ModuleActivator - Cambie algo aqui
+2015-11-15 16:17:09,981 DEBUG Mod.Core.ModuleA.ModuleActivator - Module Demo start completed
+2015-11-15 16:17:09,981 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module Mod.Core.ModuleA.ModuleActivator has been started succesfully
+2015-11-15 16:17:09,981 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules has finished
+2015-11-15 16:17:09,989 DEBUG Mod.Core.Cqrs.QueryBusService - Constructing Query Bus Service
+2015-11-15 16:17:09,989 DEBUG Mod.Core.Cqrs.QueryBusService - Query Bus Service Constructed Successfully
+2015-11-15 16:17:11,207 DEBUG Mod.Core.Cqrs.CommandBusService - Constructing Command Bus Service
+2015-11-15 16:17:11,207 DEBUG Mod.Core.Cqrs.CommandBusService - Command Bus Service Constructed Successfully
+2015-11-15 16:17:49,586 DEBUG ASP.global_asax - Application End signal received, processing..
+2015-11-15 16:17:49,586 DEBUG WebHost.ModuleConfig - Sending Stop Signal to module Loader
+2015-11-15 16:17:49,586 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping modules
+2015-11-15 16:17:49,586 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping module ModuleActivator
+2015-11-15 16:17:49,586 DEBUG Mod.Core.ModuleA.ModuleActivator - Stopping Module Demo
+2015-11-15 16:17:49,586 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module ModuleActivator  stopped
+2015-11-15 16:17:49,586 DEBUG WebHost.ModuleConfig - Stop Signal sent to module Loader
+2015-11-15 16:17:49,586 DEBUG ASP.global_asax - Application End signal processed
+2015-11-15 16:17:53,004 DEBUG ASP.global_asax - Guarda algo en la bitacora
+2015-11-15 16:17:53,009 DEBUG ASP.global_asax - Iniciando Aplicación
+2015-11-15 16:17:53,324 DEBUG WebHost.ContainerConfig - Asignando SimpleInjector como DependencyResolver 
+2015-11-15 16:17:53,355 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules in plugins path
+2015-11-15 16:17:53,355 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Trying to load module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-15 16:17:53,356 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying new plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-15 16:17:53,356 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying Module Mod.Core.ModuleA.dll
+2015-11-15 16:17:53,356 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll already exists in target folder, deleting..
+2015-11-15 16:17:53,356 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll deleted
+2015-11-15 16:17:53,361 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll succesfully deployed
+2015-11-15 16:17:53,362 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Load new module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll into memory
+2015-11-15 16:17:53,404 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator :ModuleActivator found, starting module
+2015-11-15 16:17:53,434 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator ModuleActivator completed
+2015-11-15 16:17:53,434 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll loaded successfully
+2015-11-15 16:17:53,434 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll loaded
+2015-11-15 16:17:53,434 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Registering container configuration for :Mod.Core.ModuleA.ModuleActivator
+2015-11-15 16:17:53,434 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Mod.Core.ModuleA.ModuleActivator  has been registered sucessfully
+2015-11-15 16:17:53,434 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting module Mod.Core.ModuleA.ModuleActivator
+2015-11-15 16:17:53,435 DEBUG Mod.Core.ModuleA.ModuleActivator - Starting Module Demo
+2015-11-15 16:17:53,787 DEBUG Mod.Core.ModuleA.ModuleActivator - Cambie algo aqui
+2015-11-15 16:17:53,787 DEBUG Mod.Core.ModuleA.ModuleActivator - Module Demo start completed
+2015-11-15 16:17:53,787 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module Mod.Core.ModuleA.ModuleActivator has been started succesfully
+2015-11-15 16:17:53,787 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules has finished
+2015-11-15 16:17:53,796 DEBUG Mod.Core.Cqrs.QueryBusService - Constructing Query Bus Service
+2015-11-15 16:17:53,796 DEBUG Mod.Core.Cqrs.QueryBusService - Query Bus Service Constructed Successfully
+2015-11-15 16:17:55,048 DEBUG Mod.Core.Cqrs.CommandBusService - Constructing Command Bus Service
+2015-11-15 16:17:55,048 DEBUG Mod.Core.Cqrs.CommandBusService - Command Bus Service Constructed Successfully
+2015-11-15 16:18:57,364 DEBUG ASP.global_asax - Guarda algo en la bitacora
+2015-11-15 16:18:57,368 DEBUG ASP.global_asax - Iniciando Aplicación
+2015-11-15 16:18:57,572 DEBUG WebHost.ContainerConfig - Asignando SimpleInjector como DependencyResolver 
+2015-11-15 16:18:57,599 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules in plugins path
+2015-11-15 16:18:57,599 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Trying to load module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-15 16:18:57,599 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying new plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-15 16:18:57,599 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying Module Mod.Core.ModuleA.dll
+2015-11-15 16:18:57,599 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll already exists in target folder, deleting..
+2015-11-15 16:18:57,599 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll deleted
+2015-11-15 16:18:57,605 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll succesfully deployed
+2015-11-15 16:18:57,606 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Load new module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll into memory
+2015-11-15 16:18:57,608 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator :ModuleActivator found, starting module
+2015-11-15 16:18:57,639 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator ModuleActivator completed
+2015-11-15 16:18:57,639 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll loaded successfully
+2015-11-15 16:18:57,639 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll loaded
+2015-11-15 16:18:57,639 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Registering container configuration for :Mod.Core.ModuleA.ModuleActivator
+2015-11-15 16:18:57,639 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Mod.Core.ModuleA.ModuleActivator  has been registered sucessfully
+2015-11-15 16:18:57,639 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting module Mod.Core.ModuleA.ModuleActivator
+2015-11-15 16:18:57,640 DEBUG Mod.Core.ModuleA.ModuleActivator - Starting Module Demo
+2015-11-15 16:18:57,978 DEBUG Mod.Core.ModuleA.ModuleActivator - Cambie algo aqui
+2015-11-15 16:18:57,978 DEBUG Mod.Core.ModuleA.ModuleActivator - Module Demo start completed
+2015-11-15 16:18:57,978 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module Mod.Core.ModuleA.ModuleActivator has been started succesfully
+2015-11-15 16:18:57,978 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules has finished
+2015-11-15 16:18:57,984 DEBUG Mod.Core.Cqrs.QueryBusService - Constructing Query Bus Service
+2015-11-15 16:18:57,984 DEBUG Mod.Core.Cqrs.QueryBusService - Query Bus Service Constructed Successfully
+2015-11-15 16:18:59,155 DEBUG Mod.Core.Cqrs.CommandBusService - Constructing Command Bus Service
+2015-11-15 16:18:59,155 DEBUG Mod.Core.Cqrs.CommandBusService - Command Bus Service Constructed Successfully
+2015-11-15 16:22:13,041 DEBUG ASP.global_asax - Application End signal received, processing..
+2015-11-15 16:22:13,041 DEBUG WebHost.ModuleConfig - Sending Stop Signal to module Loader
+2015-11-15 16:22:13,042 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping modules
+2015-11-15 16:22:13,042 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping module ModuleActivator
+2015-11-15 16:22:13,042 DEBUG Mod.Core.ModuleA.ModuleActivator - Stopping Module Demo
+2015-11-15 16:22:13,042 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module ModuleActivator  stopped
+2015-11-15 16:22:13,042 DEBUG WebHost.ModuleConfig - Stop Signal sent to module Loader
+2015-11-15 16:22:13,042 DEBUG ASP.global_asax - Application End signal processed
+2015-11-15 16:26:19,981 DEBUG ASP.global_asax - Guarda algo en la bitacora
+2015-11-15 16:26:19,986 DEBUG ASP.global_asax - Iniciando Aplicación
+2015-11-15 16:26:20,259 DEBUG WebHost.ContainerConfig - Asignando SimpleInjector como DependencyResolver 
+2015-11-15 16:26:20,283 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules in plugins path
+2015-11-15 16:26:20,283 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Trying to load module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-15 16:26:20,284 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying new plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-15 16:26:20,284 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying Module Mod.Core.ModuleA.dll
+2015-11-15 16:26:20,284 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll already exists in target folder, deleting..
+2015-11-15 16:26:20,284 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll deleted
+2015-11-15 16:26:20,290 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll succesfully deployed
+2015-11-15 16:26:20,290 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Load new module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll into memory
+2015-11-15 16:26:20,292 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator :ModuleActivator found, starting module
+2015-11-15 16:26:20,319 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator ModuleActivator completed
+2015-11-15 16:26:20,319 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll loaded successfully
+2015-11-15 16:26:20,319 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll loaded
+2015-11-15 16:26:20,320 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Registering container configuration for :Mod.Core.ModuleA.ModuleActivator
+2015-11-15 16:26:20,320 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Mod.Core.ModuleA.ModuleActivator  has been registered sucessfully
+2015-11-15 16:26:20,320 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting module Mod.Core.ModuleA.ModuleActivator
+2015-11-15 16:26:20,320 DEBUG Mod.Core.ModuleA.ModuleActivator - Starting Module Demo
+2015-11-15 16:26:21,496 DEBUG Mod.Core.ModuleA.ModuleActivator - Cambie algo aqui
+2015-11-15 16:26:21,496 DEBUG Mod.Core.ModuleA.ModuleActivator - Module Demo start completed
+2015-11-15 16:26:21,496 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module Mod.Core.ModuleA.ModuleActivator has been started succesfully
+2015-11-15 16:26:21,496 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules has finished
+2015-11-15 16:26:21,503 DEBUG Mod.Core.Cqrs.QueryBusService - Constructing Query Bus Service
+2015-11-15 16:26:21,503 DEBUG Mod.Core.Cqrs.QueryBusService - Query Bus Service Constructed Successfully
+2015-11-15 16:26:23,182 DEBUG Mod.Core.Cqrs.CommandBusService - Constructing Command Bus Service
+2015-11-15 16:26:23,182 DEBUG Mod.Core.Cqrs.CommandBusService - Command Bus Service Constructed Successfully
+2015-11-15 16:46:09,609 DEBUG ASP.global_asax - Application End signal received, processing..
+2015-11-15 16:46:09,609 DEBUG WebHost.ModuleConfig - Sending Stop Signal to module Loader
+2015-11-15 16:46:09,609 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping modules
+2015-11-15 16:46:09,609 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping module ModuleActivator
+2015-11-15 16:46:09,609 DEBUG Mod.Core.ModuleA.ModuleActivator - Stopping Module Demo
+2015-11-15 16:46:09,609 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module ModuleActivator  stopped
+2015-11-15 16:46:09,609 DEBUG WebHost.ModuleConfig - Stop Signal sent to module Loader
+2015-11-15 16:46:09,609 DEBUG ASP.global_asax - Application End signal processed
+2015-11-15 16:46:11,754 DEBUG ASP.global_asax - Guarda algo en la bitacora
+2015-11-15 16:46:11,758 DEBUG ASP.global_asax - Iniciando Aplicación
+2015-11-15 16:46:12,025 DEBUG WebHost.ContainerConfig - Asignando SimpleInjector como DependencyResolver 
+2015-11-15 16:46:12,049 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules in plugins path
+2015-11-15 16:46:12,049 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Trying to load module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-15 16:46:12,049 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying new plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-15 16:46:12,049 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying Module Mod.Core.ModuleA.dll
+2015-11-15 16:46:12,049 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll already exists in target folder, deleting..
+2015-11-15 16:46:12,049 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll deleted
+2015-11-15 16:46:12,055 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll succesfully deployed
+2015-11-15 16:46:12,055 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Load new module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll into memory
+2015-11-15 16:46:12,057 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator :ModuleActivator found, starting module
+2015-11-15 16:46:12,085 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator ModuleActivator completed
+2015-11-15 16:46:12,085 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll loaded successfully
+2015-11-15 16:46:12,085 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll loaded
+2015-11-15 16:46:12,086 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Registering container configuration for :Mod.Core.ModuleA.ModuleActivator
+2015-11-15 16:46:12,086 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Mod.Core.ModuleA.ModuleActivator  has been registered sucessfully
+2015-11-15 16:46:12,086 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting module Mod.Core.ModuleA.ModuleActivator
+2015-11-15 16:46:12,087 DEBUG Mod.Core.ModuleA.ModuleActivator - Starting Module Demo
+2015-11-15 16:46:13,819 DEBUG Mod.Core.ModuleA.ModuleActivator - Cambie algo aqui
+2015-11-15 16:46:13,819 DEBUG Mod.Core.ModuleA.ModuleActivator - Module Demo start completed
+2015-11-15 16:46:13,819 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module Mod.Core.ModuleA.ModuleActivator has been started succesfully
+2015-11-15 16:46:13,819 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules has finished
+2015-11-15 16:46:13,826 DEBUG Mod.Core.Cqrs.QueryBusService - Constructing Query Bus Service
+2015-11-15 16:46:13,826 DEBUG Mod.Core.Cqrs.QueryBusService - Query Bus Service Constructed Successfully
+2015-11-15 16:46:29,075 DEBUG Mod.Core.Cqrs.CommandBusService - Constructing Command Bus Service
+2015-11-15 16:46:29,075 DEBUG Mod.Core.Cqrs.CommandBusService - Command Bus Service Constructed Successfully
+2015-11-15 17:06:02,243 DEBUG ASP.global_asax - Application End signal received, processing..
+2015-11-15 17:06:02,243 DEBUG WebHost.ModuleConfig - Sending Stop Signal to module Loader
+2015-11-15 17:06:02,243 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping modules
+2015-11-15 17:06:02,243 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping module ModuleActivator
+2015-11-15 17:06:02,243 DEBUG Mod.Core.ModuleA.ModuleActivator - Stopping Module Demo
+2015-11-15 17:06:02,243 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module ModuleActivator  stopped
+2015-11-15 17:06:02,243 DEBUG WebHost.ModuleConfig - Stop Signal sent to module Loader
+2015-11-15 17:06:02,243 DEBUG ASP.global_asax - Application End signal processed
+2015-11-15 17:06:02,645 DEBUG ASP.global_asax - Guarda algo en la bitacora
+2015-11-15 17:06:02,650 DEBUG ASP.global_asax - Iniciando Aplicación
+2015-11-15 17:06:02,678 DEBUG WebHost.ContainerConfig - Asignando SimpleInjector como DependencyResolver 
+2015-11-15 17:06:02,721 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules in plugins path
+2015-11-15 17:06:02,721 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Trying to load module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-15 17:06:02,721 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying new plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-15 17:06:02,721 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying Module Mod.Core.ModuleA.dll
+2015-11-15 17:06:02,721 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll already exists in target folder, deleting..
+2015-11-15 17:06:02,721 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll deleted
+2015-11-15 17:06:02,726 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll succesfully deployed
+2015-11-15 17:06:02,727 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Load new module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll into memory
+2015-11-15 17:06:02,764 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator :ModuleActivator found, starting module
+2015-11-15 17:06:02,790 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator ModuleActivator completed
+2015-11-15 17:06:02,790 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll loaded successfully
+2015-11-15 17:06:02,790 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll loaded
+2015-11-15 17:06:02,790 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Registering container configuration for :Mod.Core.ModuleA.ModuleActivator
+2015-11-15 17:06:02,790 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Mod.Core.ModuleA.ModuleActivator  has been registered sucessfully
+2015-11-15 17:06:02,790 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting module Mod.Core.ModuleA.ModuleActivator
+2015-11-15 17:06:02,791 DEBUG Mod.Core.ModuleA.ModuleActivator - Starting Module Demo
+2015-11-15 17:06:04,561 DEBUG Mod.Core.ModuleA.ModuleActivator - Cambie algo aqui
+2015-11-15 17:06:04,561 DEBUG Mod.Core.ModuleA.ModuleActivator - Module Demo start completed
+2015-11-15 17:06:04,561 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module Mod.Core.ModuleA.ModuleActivator has been started succesfully
+2015-11-15 17:06:04,561 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules has finished
+2015-11-15 17:06:04,568 DEBUG Mod.Core.Cqrs.QueryBusService - Constructing Query Bus Service
+2015-11-15 17:06:04,568 DEBUG Mod.Core.Cqrs.QueryBusService - Query Bus Service Constructed Successfully
+2015-11-15 17:06:05,207 DEBUG Mod.Core.Cqrs.CommandBusService - Constructing Command Bus Service
+2015-11-15 17:06:05,207 DEBUG Mod.Core.Cqrs.CommandBusService - Command Bus Service Constructed Successfully
+2015-11-15 17:37:04,845 DEBUG ASP.global_asax - Application End signal received, processing..
+2015-11-15 17:37:04,845 DEBUG WebHost.ModuleConfig - Sending Stop Signal to module Loader
+2015-11-15 17:37:04,845 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping modules
+2015-11-15 17:37:04,845 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping module ModuleActivator
+2015-11-15 17:37:04,846 DEBUG Mod.Core.ModuleA.ModuleActivator - Stopping Module Demo
+2015-11-15 17:37:04,846 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module ModuleActivator  stopped
+2015-11-15 17:37:04,846 DEBUG WebHost.ModuleConfig - Stop Signal sent to module Loader
+2015-11-15 17:37:04,846 DEBUG ASP.global_asax - Application End signal processed
+2015-11-15 17:37:05,700 DEBUG ASP.global_asax - Guarda algo en la bitacora
+2015-11-15 17:37:05,704 DEBUG ASP.global_asax - Iniciando Aplicación
+2015-11-15 17:37:05,875 DEBUG WebHost.ContainerConfig - Asignando SimpleInjector como DependencyResolver 
+2015-11-15 17:37:05,900 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules in plugins path
+2015-11-15 17:37:05,900 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Trying to load module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-15 17:37:05,900 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying new plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll
+2015-11-15 17:37:05,900 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Deploying Module Mod.Core.ModuleA.dll
+2015-11-15 17:37:05,900 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll already exists in target folder, deleting..
+2015-11-15 17:37:05,900 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module : D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll deleted
+2015-11-15 17:37:05,906 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New plugin D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll succesfully deployed
+2015-11-15 17:37:05,906 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Load new module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll into memory
+2015-11-15 17:37:05,908 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator :ModuleActivator found, starting module
+2015-11-15 17:37:05,935 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Activator ModuleActivator completed
+2015-11-15 17:37:05,935 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - New module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\deploy\Mod.Core.ModuleA.dll loaded successfully
+2015-11-15 17:37:05,935 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module D:\Documents\Proyectos\Net\Modular\Mod\WebHost\pickupmodules\Mod.Core.ModuleA.dll loaded
+2015-11-15 17:37:05,935 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Registering container configuration for :Mod.Core.ModuleA.ModuleActivator
+2015-11-15 17:37:05,935 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Mod.Core.ModuleA.ModuleActivator  has been registered sucessfully
+2015-11-15 17:37:05,935 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting module Mod.Core.ModuleA.ModuleActivator
+2015-11-15 17:37:05,936 DEBUG Mod.Core.ModuleA.ModuleActivator - Starting Module Demo
+2015-11-15 17:37:06,695 DEBUG Mod.Core.ModuleA.ModuleActivator - Cambie algo aqui
+2015-11-15 17:37:06,695 DEBUG Mod.Core.ModuleA.ModuleActivator - Module Demo start completed
+2015-11-15 17:37:06,695 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module Mod.Core.ModuleA.ModuleActivator has been started succesfully
+2015-11-15 17:37:06,695 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Starting modules has finished
+2015-11-15 17:37:06,702 DEBUG Mod.Core.Cqrs.QueryBusService - Constructing Query Bus Service
+2015-11-15 17:37:06,702 DEBUG Mod.Core.Cqrs.QueryBusService - Query Bus Service Constructed Successfully
+2015-11-15 17:37:07,848 DEBUG Mod.Core.Cqrs.CommandBusService - Constructing Command Bus Service
+2015-11-15 17:37:07,848 DEBUG Mod.Core.Cqrs.CommandBusService - Command Bus Service Constructed Successfully
+2015-11-15 17:51:02,139 DEBUG ASP.global_asax - Application End signal received, processing..
+2015-11-15 17:51:02,139 DEBUG WebHost.ModuleConfig - Sending Stop Signal to module Loader
+2015-11-15 17:51:02,140 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping modules
+2015-11-15 17:51:02,140 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Stopping module ModuleActivator
+2015-11-15 17:51:02,140 DEBUG Mod.Core.ModuleA.ModuleActivator - Stopping Module Demo
+2015-11-15 17:51:02,140 DEBUG Mod.Core.Infraestructure.ModuleHandler.ModuleLoader - Module ModuleActivator  stopped
+2015-11-15 17:51:02,140 DEBUG WebHost.ModuleConfig - Stop Signal sent to module Loader
+2015-11-15 17:51:02,140 DEBUG ASP.global_asax - Application End signal processed

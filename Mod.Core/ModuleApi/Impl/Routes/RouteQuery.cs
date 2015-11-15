@@ -5,9 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Mod.Core.Cqrs.Api;
 
-namespace Mod.Core.ModuleApi.Impl
+namespace Mod.Core.ModuleApi.Impl.Routes
 {
-    public class MenuQuery : IQuery
+    public class RouteQuery : IQuery
     {
+
     }
 }

@@ -10,17 +10,19 @@ namespace Mod.Core.ModuleApi.Menu
     {
         public string MenuItemName { get; }
         public string ModuleBelongs { get; }
-        public string Path { get; }
+        public string MenuPath { get; }
+        public string Route { get; }
         public ICollection<Role> Roles { get; }
-        public string ModuleEntryPoint { get; }
+        
 
-        public SimpleMenuItem(string menuItemName, string moduleBelongs, string path, ICollection<Role> roles, string moduleEntryPoint)
+        public SimpleMenuItem(string menuItemName, string moduleBelongs, string menuPath, string route, ICollection<Role> roles)
         {
             MenuItemName = menuItemName;
             ModuleBelongs = moduleBelongs;
-            Path = path;
+            MenuPath = menuPath;
             Roles = roles;
-            ModuleEntryPoint = moduleEntryPoint;
+            Route = route;
+
         }
     }
 }

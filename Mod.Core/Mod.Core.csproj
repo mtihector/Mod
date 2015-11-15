@@ -66,16 +66,22 @@
     <Compile Include="Cqrs\QueryBusService.cs" />
     <Compile Include="Infraestructure\Log\LogUtils.cs" />
     <Compile Include="Infraestructure\ModuleHandler\ModuleLoader.cs" />
-    <Compile Include="ModuleApi\Impl\MenuQuery.cs" />
-    <Compile Include="ModuleApi\Impl\MenuQueryHandler.cs" />
+    <Compile Include="ModuleApi\Impl\Menu\MenuQuery.cs" />
+    <Compile Include="ModuleApi\Impl\Menu\MenuQueryHandler.cs" />
+    <Compile Include="ModuleApi\Impl\Routes\Dto\RouteDto.cs" />
+    <Compile Include="ModuleApi\Impl\Routes\RouteQuery.cs" />
+    <Compile Include="ModuleApi\Impl\Routes\RouteQueryHandler.cs" />
     <Compile Include="ModuleApi\Menu\IMenuItem.cs" />
     <Compile Include="ModuleApi\Menu\IMenuItemSecure.cs" />
     <Compile Include="ModuleApi\Menu\IMenuService.cs" />
     <Compile Include="ModuleApi\IModuleActivator.cs" />
     <Compile Include="ModuleApi\IModuleCapabilities.cs" />
-    <Compile Include="ModuleApi\Impl\MenuService.cs" />
+    <Compile Include="ModuleApi\Impl\Menu\MenuService.cs" />
     <Compile Include="ModuleApi\Menu\Role.cs" />
     <Compile Include="ModuleApi\Menu\SimpleMenuItem.cs" />
+    <Compile Include="ModuleApi\Routes\IRouteService.cs" />
+    <Compile Include="ModuleApi\Routes\RouteItem.cs" />
+    <Compile Include="ModuleApi\Impl\Routes\RouteService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -545,6 +545,7 @@
     <Content Include="Scripts\libs\ace\worker-php.js" />
     <Content Include="Scripts\libs\ace\worker-xml.js" />
     <Content Include="Scripts\libs\ace\worker-xquery.js" />
+    <Content Include="Scripts\libs\backbone\backbone.js" />
     <Content Include="Scripts\libs\beautify\beautify-css.js" />
     <Content Include="Scripts\libs\beautify\beautify-html.js" />
     <Content Include="Scripts\libs\beautify\beautify.js" />
@@ -564,8 +565,13 @@
     <Content Include="Scripts\libs\require\text.js" />
     <Content Include="Scripts\libs\rsvp\rsvp.js" />
     <Content Include="Scripts\libs\underscore\underscore.js" />
+    <Content Include="Scripts\libs\webComponents\polymer-mini.html" />
+    <Content Include="Scripts\libs\webComponents\polymer.html" />
+    <Content Include="Scripts\libs\webComponents\webcomponents.min.js" />
     <Content Include="Scripts\modules\Menu\Menu.js" />
     <Content Include="Scripts\modules\Menu\templates\MenuDemo.html" />
+    <Content Include="Scripts\modules\Security\Users\templates\Users.html" />
+    <Content Include="Scripts\modules\Security\Users\Users.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
