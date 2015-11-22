@@ -8,11 +8,13 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
+using Mod.Core.Infraestructure.Security;
+using Mod.Core.Infraestructure.Security.Identity;
 using WebHost.Models;
 
 namespace WebHost.Controllers
 {
-    [Authorize]
+  //  [Authorize]
     public class AccountController : Controller
     {
         private ApplicationSignInManager _signInManager;
@@ -57,6 +59,11 @@ namespace WebHost.Controllers
         [AllowAnonymous]
         public ActionResult Login(string returnUrl)
         {
+            ApplicationUser result = UserManager.Users.FirstOrDefault(c => c.UserName == "admin");
+
+            if (result == null)
+                RedirectToAction("Init");
+
             ViewBag.ReturnUrl = returnUrl;
             return View();
         }
@@ -91,7 +98,6 @@ namespace WebHost.Controllers
                 case SignInStatus.Success:
                     return RedirectToLocal(returnUrl);
                 case SignInStatus.LockedOut:
-                    return View("Lockout");
                 case SignInStatus.RequiresVerification:
                 case SignInStatus.Failure:
                 default:

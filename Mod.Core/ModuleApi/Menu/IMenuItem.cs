@@ -13,7 +13,5 @@ namespace Mod.Core.ModuleApi.Menu
         string MenuPath { get; }
         string Route { get; }
         
-
-        
     }
 }

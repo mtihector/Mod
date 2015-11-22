@@ -22,17 +22,18 @@
             color:@LeftContainerColor;
             cursor:pointer;
         }
-        a:hover{
+        a:hover, a:focus{
             color:@LeftContainerColor;
             text-decoration:none;
+            outline:0;
         }
     }
 
-    /*li::after{
+    >li li::after{
         content:" ";
         display:block;
         border-bottom: .1px solid @LeftInnerContainerBackColor;
-    }*/
+    }
     .menuHeader > div > a{
 
         text-transform:uppercase;

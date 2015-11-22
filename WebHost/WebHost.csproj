@@ -40,8 +40,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
-      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
+    <Reference Include="log4net, Version=1.2.14.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.4\lib\net45-full\log4net.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
@@ -118,13 +118,13 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
-    <Reference Include="WebGrease">
-      <Private>True</Private>
-      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
-    </Reference>
     <Reference Include="Antlr3.Runtime">
       <Private>True</Private>
       <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+      <Private>True</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -201,7 +201,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -558,6 +557,7 @@
     <Content Include="Scripts\libs\jqueryscrollbar\jquery.scrollbar.js" />
     <Content Include="Scripts\libs\JQuery\jquery.js" />
     <Content Include="Scripts\libs\knockout\knockout.js" />
+    <Content Include="Scripts\libs\mod\modController.js" />
     <Content Include="Scripts\libs\mod\mod.js" />
     <Content Include="Scripts\libs\require\css.js" />
     <Content Include="Scripts\libs\require\domReady.js" />
@@ -570,6 +570,8 @@
     <Content Include="Scripts\libs\webComponents\webcomponents.min.js" />
     <Content Include="Scripts\modules\Menu\Menu.js" />
     <Content Include="Scripts\modules\Menu\templates\MenuDemo.html" />
+    <Content Include="Scripts\modules\ModuleA\DemoController.js" />
+    <Content Include="Scripts\modules\ModuleA\template\DemoTemplate.html" />
     <Content Include="Scripts\modules\Security\Users\templates\Users.html" />
     <Content Include="Scripts\modules\Security\Users\Users.js" />
     <Content Include="Web.config">

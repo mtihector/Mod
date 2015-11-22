@@ -14,33 +14,43 @@ define(["text!Menu/templates/MenuDemo.html",
             render: function () {
                 this.el.html(template);
 
-                this.el.find("a").on("click", function (e) {
-                    e.preventDefault();
-                    Backbone.history.navigate($(this).attr("href"), true);
-                });
+             
+
+                var menuContainer = $(this.el).find("ul");
+
                 mod.sendQuery({
                     "$type": "Mod.Core.ModuleApi.Impl.Menu.MenuQuery, Mod.Core, Version = 1.0.0.0, Culture = neutral, PublicKeyToken = null"
                 }).then(function (items) {
-                    //    alert("Received: " + items.length);
-                    console.log("Received: " + items.length);
                     
+                    console.log("Received: " + items.length);
+                    _.each(items, function(ci) {
+
+                        var currentContainer= menuContainer.find("[path='" + ci.MenuPath + "']");
+
+                        if (currentContainer.length === 0) {
+                            menuContainer.append("<li class=\"menuHeader\" path=\""+ci.MenuPath+"\"><div><a>"+ci.MenuPath+"</a> <ul> </ul> </div></li>");
+                            currentContainer = menuContainer.find("[path='" + ci.MenuPath + "']");
+                        }
+
+
+                        var innercontainer =currentContainer.find("ul");
+                        innercontainer.append("<li><a href=\"/" + ci.Route + "\">" + ci.MenuItemName + "</a></li>");
+
+
+                    },this);
+
+
+                    menuContainer.find("a").on("click", function (e) {
+                        e.preventDefault();
+                        Backbone.history.navigate($(this).attr("href"), true);
+                    });
+
+
+
                 }, function (error) {
                     alert("error" + error);
                 });
-                //this.el.append("<ul class=\"menuItemsContainer\"> </ul>");
-
-                //var innerContainer = this.el.find("ul");
-
-
-                //innerContainer.append("<li class=\"menuHeader\">Security</li>");
-                //innerContainer.append("<li><a>Users</a></li>");
-                //innerContainer.append("<li><a>Permissions</a></li>");
-                //innerContainer.append("<li><a>Security Map</a></li>");
-
-                //innerContainer.append("<li class=\"menuHeader\">Tickets</li>");
-                //innerContainer.append("<li><a>View Tickets</a></li>");
-                //innerContainer.append("<li><a>Dashboard</a></li>");
-
+               
             },
             init: function () {
 

@@ -78,7 +78,16 @@ namespace Mod.Core.Infraestructure.ModuleHandler
             Log.Debug("Starting modules in plugins path");
             var files = Directory.GetFiles(path);
 
-            foreach (var module in files)
+            //Clean deployed files
+            var toDelete= Directory.GetFiles(_deployPath);
+            foreach (string s in toDelete)
+            {
+                File.Delete(s);
+            }
+            
+            
+
+            foreach (string module in files.OrderBy(c=> c))
             {
                 Log.Debug("Trying to load module " + module);
 

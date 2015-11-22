@@ -10,5 +10,6 @@ namespace Mod.Core.ModuleApi.Routes
     {
         void RegisterRoute(RouteItem routeItem);
         void RegisterRoute(List<RouteItem> routeItems);
+        List<RouteItem> GetRoutes();
     }
 }

@@ -10,6 +10,8 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
+using Mod.Core.Infraestructure.Security;
+using Mod.Core.Infraestructure.Security.Identity;
 using WebHost.Models;
 
 namespace WebHost

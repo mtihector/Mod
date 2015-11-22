@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mod.Core.Base.Employees", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mod.Core.Base.Api.Employees", "Mod.Core.Base.Api.Employees\Mod.Core.Base.Api.Employees.csproj", "{62304C93-84A3-4B52-BC33-CF7BC7582FBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mod.Core.Security", "Mod.Core.Security\Mod.Core.Security.csproj", "{CD68359C-3F90-404B-AE9C-7E6155C9A577}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,11 +51,16 @@ Global
 		{62304C93-84A3-4B52-BC33-CF7BC7582FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62304C93-84A3-4B52-BC33-CF7BC7582FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62304C93-84A3-4B52-BC33-CF7BC7582FBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD68359C-3F90-404B-AE9C-7E6155C9A577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD68359C-3F90-404B-AE9C-7E6155C9A577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD68359C-3F90-404B-AE9C-7E6155C9A577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD68359C-3F90-404B-AE9C-7E6155C9A577}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{53A06C26-EA07-406A-8E33-1F2C18F4D503} = {E7DEE6C7-9EE4-4287-AB1A-F6610322CD4A}
 		{567D1E1F-1A18-40AF-B8B9-26841C295AE2} = {E7DEE6C7-9EE4-4287-AB1A-F6610322CD4A}
 		{50D0FBD2-E924-4F9F-A4E5-49E1A6E331FC} = {849445D5-2C18-4805-BCDB-08554FC2579D}
 		{62304C93-84A3-4B52-BC33-CF7BC7582FBF} = {849445D5-2C18-4805-BCDB-08554FC2579D}

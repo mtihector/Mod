@@ -8,8 +8,7 @@ namespace Mod.Core.ModuleApi.Impl.Routes
         private readonly List<RouteItem> _routes ;
 
         public RouteService()
-        {
-            _routes = new List<RouteItem>();
+        {   _routes = new List<RouteItem>();
         }
 
         public void RegisterRoute(List<RouteItem> routeItems)
@@ -20,6 +19,11 @@ namespace Mod.Core.ModuleApi.Impl.Routes
         public void RegisterRoute(RouteItem routeItem)
         {
             _routes.Add(routeItem);
+        }
+
+        public List<RouteItem> GetRoutes()
+        {
+            return _routes;
         }
     }
 }

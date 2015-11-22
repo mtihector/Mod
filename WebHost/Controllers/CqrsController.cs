@@ -11,6 +11,7 @@ using Newtonsoft.Json;
 
 namespace WebHost.Controllers
 {
+    [Authorize]
     public class CqrsController : ApiController
     {
         private ICommandBusService _commandBus;

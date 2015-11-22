@@ -4,25 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mod.Core.ModuleApi.Menu
+namespace Mod.Core.ModuleApi.Impl.Menu.Dto
 {
-    public class SimpleMenuItem : IMenuItemSecure
+    public class MenuItemDto
     {
         public string MenuItemName { get; }
         public string ModuleBelongs { get; }
         public string MenuPath { get; }
         public string Route { get; }
-        public ICollection<Role> Roles { get; }
-        
 
-        public SimpleMenuItem(string menuItemName, string moduleBelongs, string menuPath, string route, ICollection<Role> roles)
+        public MenuItemDto(string menuItemName, string moduleBelongs, string menuPath, string route)
         {
             MenuItemName = menuItemName;
             ModuleBelongs = moduleBelongs;
             MenuPath = menuPath;
-            Roles = roles;
             Route = route;
-
         }
     }
 }

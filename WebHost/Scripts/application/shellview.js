@@ -40,18 +40,12 @@ define(["text!app/templates/shell.html", "Menu/Menu", "jquery", "jqueryscrollbar
 
                     this.router= new Workspace();
 
-                    //bb.history.handlers.push({
-                    //    route: /(.*)/,
-                    //    callback: function (fragment) {
-                    //        if (fragment !== "") {
-                    //            //alert(fragment);
-                    //            if (routes[fragment])
-                                
-                    //        }
-                    //    }
-                    //});
+                
                     
-                    Backbone.history.start({ pushState: true });
+                    Backbone.history.start({
+                        pushState: true
+                        //root: "/ctrl/"
+                    });
 
                 }.bind(this), function (error) {
                     alert("Error while loading routes: " + error);
